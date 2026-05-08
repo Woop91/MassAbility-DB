@@ -23,9 +23,10 @@ echo ""
 firecrawl crawl "${SEED}" \
   --limit "${LIMIT}" \
   --max-depth "${MAX_DEPTH}" \
-  --include-paths "/orgs/massability/.*" "/info-details/.*" "/news/.*" \
-  --formats markdown,links \
-  --parse-pdf \
+  --include-paths "/orgs/massability,/info-details,/news" \
+  --wait \
+  --progress \
+  --pretty \
   --output "${OUT_DIR}/crawl.json"
 
 echo ""
