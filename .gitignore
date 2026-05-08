@@ -1,0 +1,18 @@
+# Node
+node_modules/
+*.log
+.env
+.env.local
+
+# Firecrawl temp output
+.firecrawl/
+*.tmp
+
+# Raw PDFs — re-fetch via crawl-manifest.json
+data/pdfs/*.pdf
+!data/pdfs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
