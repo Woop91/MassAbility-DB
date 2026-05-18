@@ -26,7 +26,7 @@ jobs:
           node-version: '22'
 
       - name: Install Firecrawl CLI
-        run: npm install -g firecrawl
+        run: npm install -g firecrawl-cli
 
       - name: Verify Firecrawl credits available
         env:
