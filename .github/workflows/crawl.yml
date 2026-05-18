@@ -49,9 +49,10 @@ jobs:
       - name: Run crawl
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-          LIMIT: '300'
-          MAX_DEPTH: '3'
-        run: bash scripts/crawl.sh
+          CONCURRENCY: '5'
+          MAP_LIMIT: '500'
+          SEARCH_QUERY: massability
+        run: node scripts/crawl.mjs
 
       - name: Build manifest + dedupe
         run: node scripts/refresh-manifest.mjs

@@ -6,6 +6,7 @@ node_modules/
 
 # Firecrawl temp output
 .firecrawl/
+.firecrawl-discovery/
 *.tmp
 
 # Raw PDFs — re-fetch via crawl-manifest.json
