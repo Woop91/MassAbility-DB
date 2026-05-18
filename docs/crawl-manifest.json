@@ -1,0 +1,72 @@
+[
+  {
+    "url": "https://www.mass.gov/orgs/massability",
+    "local_path": "data/orgs-massability/_index.md",
+    "sha256": "f8dba3b12677137ac9126565b96d1b8f677a7b7231f404375eb6ee97da1190d2",
+    "fetched_at": "2026-05-18T00:39:05.513Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/news",
+    "local_path": "data/orgs-massability/news.md",
+    "sha256": "866f4d0a766462c638858b01883700149bc295c833305ed9d959a27a73ef846d",
+    "fetched_at": "2026-05-18T00:39:05.514Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/events/past",
+    "local_path": "data/orgs-massability/events-past.md",
+    "sha256": "2adbefe2da80357afc7d736176a88df464339b9117aa1a81e7d730e4884bab65",
+    "fetched_at": "2026-05-18T00:39:05.515Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/locations",
+    "local_path": "data/orgs-massability/locations.md",
+    "sha256": "1ddbe5ecb7978a4497d98e3d1bf4fd86c4806295aeacadcd98394b9bf5f37dc4",
+    "fetched_at": "2026-05-18T00:39:05.516Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/news?page=1",
+    "local_path": "data/orgs-massability/news.md",
+    "sha256": "1eb5fde6303f7163b4992894c5678bcc3eb81fbed47f05467e675e23f9b229a1",
+    "fetched_at": "2026-05-18T00:39:05.517Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/locations?page=0",
+    "local_path": "data/orgs-massability/locations.md",
+    "sha256": "ac248cd9e9ee4284782f37441ea0ef67fe23e21fc73c04488a7e2a54018ece7e",
+    "fetched_at": "2026-05-18T00:39:05.518Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/locations?page=1",
+    "local_path": "data/orgs-massability/locations.md",
+    "sha256": "42d85d4ad63e077303679fe935debbd53dfcc07aed394bd28d146cf582313a51",
+    "fetched_at": "2026-05-18T00:39:05.520Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/news?page=0",
+    "local_path": "data/orgs-massability/news.md",
+    "sha256": "d81ec09848488d49e9ba0ed06926716b4179f83817679653a9461c0fe0fb285b",
+    "fetched_at": "2026-05-18T00:39:05.520Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/news?page=2",
+    "local_path": "data/orgs-massability/news.md",
+    "sha256": "119015490f61dcea2ac33fe1d2d1ac33ad0bfa23267d872117766bb2d407c82a",
+    "fetched_at": "2026-05-18T00:39:05.521Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/locations?page=2",
+    "local_path": "data/orgs-massability/locations.md",
+    "sha256": "6f0c3d1ebafd66bbeeb5bcc18ea1a762065db7e4412e4629fba97bf2120d3741",
+    "fetched_at": "2026-05-18T00:39:05.527Z",
+    "status": "ok"
+  }
+]
