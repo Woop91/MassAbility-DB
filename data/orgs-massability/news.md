@@ -1,28 +1,8 @@
 ---
-source_url: https://www.mass.gov/orgs/massability/news?page=2
-fetched_at: 2026-05-18T00:39:05.520Z
+source_url: https://www.mass.gov/orgs/massability/news
+title: News and Announcements | Mass.gov
+fetched_at: 2026-05-18T00:56:20.672Z
 ---
-
-![Massachusetts State Seal](https://www.mass.gov/libraries/mayflower-artifacts/assets/images/logo/stateseal.png)
-An official website of the Commonwealth of Massachusetts
-Here's how you know
-
-- Official websites use .mass.gov
-
-
-
-A .mass.gov website belongs to an official government organization in Massachusetts.
-
-- Secure websites use HTTPS certificate
-
-
-
-A lock icon
-(
-
-)
-or https:// means you've safely connected to the official website. Share sensitive information only on official, secure websites.
-
 
 # News and Announcements
 
@@ -32,161 +12,158 @@ Showing
 results
 
 
+Press Release
+
+## [Massachusetts Permanent Commission on the Status of Persons with Disabilities Continues “Meeting the Moment” Series in Lowell in Partnership with MassAbility](https://www.mass.gov/news/massachusetts-permanent-commission-on-the-status-of-persons-with-disabilities-continues-meeting-the-moment-series-in-lowell-in-partnership-with-massability)
+
+3/27/2026
+
+Permanent Commission on the Status of Persons with Disabilities
+
+
+The Commission continued its “Meeting the Moment” series in Lowell, in partnership with MassAbility, convening the community to share experiences and resources.
+
 News
 
-## [The Heartbeat of Roxbury](https://www.mass.gov/news/the-heartbeat-of-roxbury)
+## [Meeting the Moment, A Community Conversation and Resource Fair](https://www.mass.gov/news/meeting-the-moment-a-community-conversation-and-resource-fair)
 
-2/08/2022
+2/27/2026
+
+Permanent Commission on the Status of Persons with Disabilities
+
+
+Friday, March 27 from 11am to 2pm, UMass Lowell University Crossing and on Zoom
+
+News
+
+## [Let Go of Disability Stigma](https://www.mass.gov/news/let-go-of-disability-stigma)
+
+12/13/2024
 
 MassAbility
 
 
 News
 
-## [Aishea Henry Participates in Career Panel](https://www.mass.gov/news/aishea-henry-participates-in-career-panel)
+## [Governor Healey Signs Executive Order Revising State Authority to Reflect Federal Requirements in the Rehabilitation Act of 1973](https://www.mass.gov/news/governor-healey-signs-executive-order-revising-state-authority-to-reflect-federal-requirements-in-the-rehabilitation-act-of-1973)
 
-1/24/2022
+8/16/2024
 
 MassAbility
 
 
 News
 
-## [Miracle On Ice](https://www.mass.gov/news/miracle-on-ice)
+## [From Elementary Physical Education Teacher to Award-Winning Artist: A Brain Injury Survivor's Journey](https://www.mass.gov/news/from-elementary-physical-education-teacher-to-award-winning-artist-a-brain-injury-survivors-journey)
 
-1/06/2022
+7/17/2024
 
 MassAbility
 
+
+News
+
+## [Serina Gordon: Embracing Creativity and Self-Acceptance After Brain Injury](https://www.mass.gov/news/serina-gordon-embracing-creativity-and-self-acceptance-after-brain-injury)
+
+3/22/2024
+
+MassAbility
+
+
+Serina's recovery from a brain injury is a tale of resilience, self-discovery, and purpose. Confronting initial fears of inadequacy head-on, she embraced her transformed self with unwavering determination.
 
 Press Release
 
-## [MRC Receives $17 million Innovation Grant](https://www.mass.gov/news/mrc-receives-17-million-innovation-grant)
+## [Governor Healey Files Legislation to Change Massachusetts Rehabilitation Commission’s Name to ‘MassAbility’](https://www.mass.gov/news/governor-healey-files-legislation-to-change-massachusetts-rehabilitation-commissions-name-to-massability-0)
 
-12/03/2021
+11/02/2023
 
 MassAbility
 
+
+The Healey-Driscoll Administration filed legislation to rename the Massachusetts Rehabilitation Commission (MRC) to MassAbility to better represent the agency’s role in helping those with disabilities gain autonomy and independence.
 
 News
 
-## [Celebrating SRC's Dr. Dawn Clark](https://www.mass.gov/news/celebrating-srcs-dr-dawn-clark)
+## [MRC and RCC's Celebrate Graduates and Three Years of Collaboration](https://www.mass.gov/news/mrc-and-rccs-celebrate-graduates-and-three-years-of-collaboration)
 
-10/22/2021
+9/18/2023
 
 MassAbility
 
 
-For more than a decade, Reverend Dr. Dawn Clark has used her voice as a life-long advocate for people experiencing disabilities as the chair of the Massachusetts State Rehabilitation Council (SRC).
+The Massachusetts Rehabilitation Commission (MRC) and Roxbury Community College (RCC) celebrated the graduation of 15 students from the IT Support Professionals program.
 
 News
 
-## [Coming Full Circle: Aisha Nakazibwe](https://www.mass.gov/news/coming-full-circle-aisha-nakazibwe)
+## [Creating Possibility at MRC’s Second Annual Summit](https://www.mass.gov/news/creating-possibility-at-mrcs-second-annual-summit)
 
-10/20/2021
+9/15/2023
 
 MassAbility
 
 
-Once a consumer, Aisha Nakazibwe is now a VR counselor.
+The Massachusetts Rehabilitation Commission’s (MRC) second “Explore Possibility Summit” opened the doors at the Sheraton Framingham Hotel and Conference Center to more than 400 registered attendees.
 
 News
 
-## [Gaining Independence Through Vocational Rehabilitation](https://www.mass.gov/news/gaining-independence-through-vocational-rehabilitation)
+## [Audria & Sam: Giving Back to the Cambodian Community](https://www.mass.gov/news/audria-sam-giving-back-to-the-cambodian-community)
 
-10/05/2021
-
-MassAbility
-
-
-Press Release
-
-## [MRC Joins in Observing National Disability Employment Awareness Month](https://www.mass.gov/news/mrc-joins-in-observing-national-disability-employment-awareness-month)
-
-10/01/2021
+5/14/2023
 
 MassAbility
 
 
-​​​​​​​Nationwide campaign will take place in October.
+At the Massachusetts Rehabilitation Commission (MRC), many of the colleagues consider each other family. But for Audria Chea and Samnang (Sam) Khoeun, it's more than just a saying – it's a fact.
 
 News
 
-## [MRC Hosts Technology Academy Program Graduation at RCC](https://www.mass.gov/news/mrc-hosts-technology-academy-program-graduation-at-rcc)
+## [Vivian Pham Receives Harvard Bradford Fellowship](https://www.mass.gov/news/vivian-pham-receives-harvard-bradford-fellowship)
 
-8/02/2021
+4/18/2023
 
 MassAbility
 
 
-MRC Hosts 2021 Technology Academy Program Graduation at Roxbury Community College
+MRC is thrilled to share that the Chief of Staff, Vivian Pham, has been accepted to the John F. Kennedy School of Government Mid-Career Master in Public Administration (MPA) and named as one of this year’s three recipients of the Bradford Fellowship.
 
 News
 
-## [Together, we made it.](https://www.mass.gov/news/together-we-made-it)
+## [Supported Independence Provider Capacity Grant](https://www.mass.gov/news/supported-independence-provider-capacity-grant)
 
-5/21/2021
-
-MassAbility
-
-
-The inspirational story of Vocational Rehabilitation Counselor Sokvann Sam
-
-Press Release
-
-## [Virtual Reality Project launched to help underserved population find employment](https://www.mass.gov/news/virtual-reality-project-launched-to-help-underserved-population-find-employment)
-
-4/26/2021
+4/07/2023
 
 MassAbility
 
+
+Grant Applications Due Before 5:00 p.m. on May 5, 2023
 
 News
 
-## [Aja James Named Assistant Commissioner, Disability Determination Services](https://www.mass.gov/news/aja-james-named-assistant-commissioner-disability-determination-services)
+## [Running for Herself and Others](https://www.mass.gov/news/running-for-herself-and-others)
 
-2/25/2021
+4/05/2023
 
 MassAbility
 
+
+On Monday, April 17, Sowmya Sundararajan, a vocational rehabilitation unit supervisor for the Massachusetts Rehabilitation Commission (MRC), will join thousands of runners for the 127th Boston Marathon.
 
 News
 
-## [A Big Change for Me](https://www.mass.gov/news/a-big-change-for-me)
+## [Beverly Brewington: Pursuing a Career Full of Purpose](https://www.mass.gov/news/beverly-brewington-pursuing-a-career-full-of-purpose)
 
-12/21/2020
+2/23/2023
 
 MassAbility
 
 
-MRC-HCC pilot program trains people with disabilities to work as cybersecurity analysts
+Beverly Brewington recognizes that her career journey has not been the same as others.
 
 News
 
-## [A Career Helping Others: Rachel Chapman](https://www.mass.gov/news/a-career-helping-others-rachel-chapman)
+## [Richard Patchin: A Call to Serve](https://www.mass.gov/news/richard-patchin-a-call-to-serve)
 
-10/13/2020
-
-MassAbility
-
-
-In her two decades with the agency, Chapman has helped thousands of individuals, and always sees the positives, no matter the situation.
-
-News
-
-## [MRC Senior VR Counselor Recognized for Leadership](https://www.mass.gov/news/mrc-senior-vr-counselor-recognized-for-leadership)
-
-9/30/2020
+11/10/2022
 
 MassAbility
-
-
-Cindy Purcell receives the Katharine F. Erskine Award for Community, Social Services, and Government
-
-![](https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg)
-
-Original text
-
-Rate this translation
-
-Your feedback will be used to help improve Google Translate

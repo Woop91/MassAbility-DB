@@ -1,34 +1,8 @@
 ---
 source_url: https://www.mass.gov/orgs/massability/events/past
-fetched_at: 2026-05-18T00:39:05.514Z
+title: Events | Mass.gov
+fetched_at: 2026-05-18T00:56:20.690Z
 ---
-
-![Massachusetts State Seal](https://www.mass.gov/libraries/mayflower-artifacts/assets/images/logo/stateseal.png)
-An official website of the Commonwealth of Massachusetts
-Here's how you know
-
-- Official websites use .mass.gov
-
-
-
-A .mass.gov website belongs to an official government organization in Massachusetts.
-
-- Secure websites use HTTPS certificate
-
-
-
-A lock icon
-(
-
-)
-or https:// means you've safely connected to the official website. Share sensitive information only on official, secure websites.
-
-
-- This page, Past events for MassAbility, is
-offered by
-
-- [MassAbility](https://www.mass.gov/orgs/massability)
-- Show more
 
 # Past events for MassAbility
 
