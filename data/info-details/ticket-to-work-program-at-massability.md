@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/ticket-to-work-program-at-massability
 title: Ticket to Work Program at MassAbility | Mass.gov
-fetched_at: 2026-05-18T00:56:20.688Z
+fetched_at: 2026-06-15T18:04:41.474Z
 ---
 
 # Ticket to Work Program at MassAbility

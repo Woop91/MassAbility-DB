@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/become-an-employer-partner
 title: Become an Employer Partner | Mass.gov
-fetched_at: 2026-05-18T00:56:20.693Z
+fetched_at: 2026-06-15T18:04:41.478Z
 ---
 
 # Become an Employer Partner
@@ -96,11 +96,3 @@ Thank you for your website feedback! We will use this information to improve thi
 If you would like to continue helping us improve Mass.gov, [join our user panel](https://www.mass.gov/user-panel?utm_source=survey) to test new features for the site.
 
 [Feedback](https://www.mass.gov/info-details/become-an-employer-partner#feedback)
-
-![](https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg)
-
-Original text
-
-Rate this translation
-
-Your feedback will be used to help improve Google Translate

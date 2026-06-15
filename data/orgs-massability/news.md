@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/orgs/massability/news
 title: News and Announcements | Mass.gov
-fetched_at: 2026-05-18T00:56:20.672Z
+fetched_at: 2026-06-15T18:04:41.456Z
 ---
 
 # News and Announcements
@@ -11,6 +11,17 @@ For [MassAbility](https://www.mass.gov/orgs/massability)
 Showing
 results
 
+
+News
+
+## [Meeting the Moment, A Community Conversation and Resource Fair](https://www.mass.gov/news/meeting-the-moment-a-community-conversation-and-resource-fair-0)
+
+6/01/2026
+
+Permanent Commission on the Status of Persons with Disabilities
+
+
+Tuesday, July 14 from 1pm to 4pm, Northampton Senior Center and on Zoom
 
 Press Release
 
@@ -160,10 +171,10 @@ MassAbility
 
 Beverly Brewington recognizes that her career journey has not been the same as others.
 
-News
+![](https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg)
 
-## [Richard Patchin: A Call to Serve](https://www.mass.gov/news/richard-patchin-a-call-to-serve)
+Original text
 
-11/10/2022
+Rate this translation
 
-MassAbility
+Your feedback will be used to help improve Google Translate

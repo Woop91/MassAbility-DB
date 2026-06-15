@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/news/governor-healey-files-legislation-to-change-massachusetts-rehabilitation-commissions-name-to-massability-0
 title: Governor Healey Files Legislation to Change Massachusetts Rehabilitation Commission’s Name to ‘MassAbility’ | Mass.gov
-fetched_at: 2026-05-18T00:56:20.688Z
+fetched_at: 2026-06-15T18:04:41.476Z
 ---
 
 # Press Release   Governor Healey Files Legislation to Change Massachusetts Rehabilitation Commission’s Name to ‘MassAbility’

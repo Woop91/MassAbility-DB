@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-plymouth
 title: MassAbility Plymouth | Mass.gov
-fetched_at: 2026-05-18T00:56:20.670Z
+fetched_at: 2026-06-15T18:04:41.457Z
 ---
 
 # MassAbility Plymouth

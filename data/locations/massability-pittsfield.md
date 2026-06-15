@@ -1,23 +1,25 @@
 ---
-source_url: https://www.mass.gov/locations/massability-north-adams
-title: MassAbility North Adams | Mass.gov
-fetched_at: 2026-06-15T18:04:41.460Z
+source_url: https://www.mass.gov/locations/massability-pittsfield
+title: MassAbility Pittsfield | Mass.gov
+fetched_at: 2026-06-15T18:04:41.463Z
 ---
 
-# MassAbility North Adams
+# MassAbility Pittsfield
 
 ## Address
 
-MassAbility North Adams Career Services Office
+MassAbility Pittsfield Career Services Office
 
-37 Main street, 3rd floor, North adams, MA 01247
+160 North Street, Suite 201, Pittsfield, MA 01201
 
 
-[Directions](https://maps.google.com/?q=37+Main+street%2C+3rd+floor%2C+North+adams%2C+MA+01247 "Get directions to 37 Main street, 3rd floor, North adams, MA 01247")
+[Directions](https://maps.google.com/?q=160+North+Street%2C+Suite+201%2C+Pittsfield%2C+MA+01201 "Get directions to 160 North Street, Suite 201, Pittsfield, MA 01201")
 
 ## Phone
 
-Voice/TTY [(413) 663-5391](tel:4136635391)
+Voice/TTY[(413) 499-2720](tel:4134992720)
+
+Toll Free (in area code 413)[1-800-210-9876](tel:18002109876)
 
 moreless
 contact info
@@ -25,21 +27,21 @@ contact info
 
 ## Fax
 
-(413) 664-7963
+(413) 443-4835
 
-[Learn more about this organization](https://www.mass.gov/locations/massability-north-adams)
+[Learn more about this organization](https://www.mass.gov/locations/massability-pittsfield)
 
 [Career Programs and Services](https://www.mass.gov/career-programs-and-services)
 
-[Get Directions  to MassAbility North Adams in Google Maps](https://maps.google.com/?q=37+Main+street%2C+3rd+floor%2C+North+adams%2C+MA+01247)
+[Get Directions  to MassAbility Pittsfield in Google Maps](https://maps.google.com/?q=160+North+Street%2C+Suite+201%2C+Pittsfield%2C+MA+01201)
 
-![](https://www.mass.gov/files/styles/banner_mobile/public/2017-09/nadams-test-m.jpg?h=4c8692f3&itok=azEf6fpq)
+![](https://www.mass.gov/files/styles/banner_mobile/public/2020-08/16_stateflag-mbl_0-use.jpg?h=8869a3dd&itok=hNcGmT4o)
 
 ## Details
 
 ### Overview
 
-The North Adams Office serves the following communities: Adams, Cheshire, Clarksburg, Florida, Hancock, Lanesboro, North Adams, New Ashford, Savoy, and Williamstown.
+The Pittsfield Office serves individuals who reside in the following towns: Alford, Becket, Dalton, Egremont, Great Barrington, Hinsdale, Lee, Lenox, Monterey, Mount Washington, New Marlboro, Otis, Peru, Pittsfield, Richmond, Sandisfield, Sheffield, Stockbridge, Tyringham, Washington, West Stockbridge, and Windsor.
 
 
 
@@ -53,9 +55,7 @@ Monday - Friday:
 
 ### Parking
 
-Our office is located at the EHS Center at 37 Main Street on the 3rd floor, above the Berkshire Bank. Please come in through the side entrance; the elevator is located to your right.
-
-Handicapped accessible and metered parking is available on Main Street or in the nearby St. Anthony Municipal Parking Lot. We are on the BRTA bus route.
+Parking is available.
 
 ### Services
 
@@ -63,8 +63,8 @@ Handicapped accessible and metered parking is available on Main Street or in the
 
 Any individual with a disability can ask about getting services. Friends, relatives, and healthcare providers can also refer an individual to MassAbility. Our services are designed to assist individuals with disabilities in making informed choices about work. We have two easy ways you can start this process.
 
-- **Call** **(413) 663-5391** and mention that you would like to arrange a referral. A member of our support staff will help you complete a short telephone inquiry and you will be assigned a counselor who will contact you to arrange an appointment.
-- **Visit our office** between the hours 8:45 am and 5:00 pm (Monday through Friday) and a member of our support staff will assist you.
+- **Call** (413) 499-2720 and mention that you would like to arrange a referral. A member of our support staff will help you complete a short telephone inquiry and you will be assigned a counselor who will contact you to arrange an appointment.
+- **Walk into our office** between the hours 8:45 am and 5:00 pm (Monday through Friday) and a member of our support staff will assist you.
 
 ### Accessibility
 
@@ -105,4 +105,4 @@ Thank you for your website feedback! We will use this information to improve thi
 
 If you would like to continue helping us improve Mass.gov, [join our user panel](https://www.mass.gov/user-panel?utm_source=survey) to test new features for the site.
 
-[Feedback](https://www.mass.gov/locations/massability-north-adams#feedback)
+[Feedback](https://www.mass.gov/locations/massability-pittsfield#feedback)
