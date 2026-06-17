@@ -58,6 +58,6 @@ The crawl is idempotent: re-running re-fetches URLs, but only commits files whos
 
 ## Caveats
 
-- mass.gov is JS-rendered; Firecrawl handles this but timeouts are possible on slow pages — per-URL scrape failures are logged to the run's stderr (not the manifest) and simply omitted from that run's output
+- mass.gov is JS-rendered and individual scrapes time out fairly often; each page is retried up to `SCRAPE_ATTEMPTS` times (default 3) with backoff. A page already committed from a prior run survives a total failure via the `retained` fallback; a brand-new page that exhausts all retries is simply absent until the next run re-attempts it (failures are logged to the run's stderr, not the manifest)
 - News archive depth is limited; older press releases may require a separate seed run
 - Per-employee CTHRU payroll is not part of this repo — see [`509dds-data/data/cthru-staffing/`](https://github.com/Woop91/509dds-data/tree/main/data/cthru-staffing) for the DDS-Det subset, or query `https://cthru.data.socrata.com/resource/rxhc-k6iz.json?$where=chris='MRC'` directly for the full agency

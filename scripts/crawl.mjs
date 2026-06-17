@@ -27,6 +27,8 @@ const SEED_URL = process.env.SEED_URL || "https://www.mass.gov";
 // scraped pages and scrape any not yet seen. /map discovery is non-exhaustive, so
 // without this, pages only reachable via links inside index pages get missed.
 const MAX_EXPAND = parseInt(process.env.MAX_EXPAND || "2", 10);
+// Retries per page — mass.gov scrapes time out transiently fairly often.
+const SCRAPE_ATTEMPTS = parseInt(process.env.SCRAPE_ATTEMPTS || "3", 10);
 
 // Must-have pages that /map has historically failed to surface. Always scraped so
 // coverage never silently regresses on these. Link-expansion catches the rest.
@@ -153,23 +155,30 @@ async function scrapeUrls(urls, seen) {
   let done = 0;
   let failed = 0;
 
+  // mass.gov is JS-rendered and frequently times out a single scrape; retry with
+  // backoff so one transient timeout doesn't permanently drop a page (especially
+  // a new one with no prior committed copy for the "retained" fallback to catch).
+  async function scrapeWithRetry(url, outFile) {
+    for (let attempt = 1; attempt <= SCRAPE_ATTEMPTS; attempt++) {
+      try {
+        await runFc(["scrape", url, "--only-main-content", "--format", "markdown", "--json", "--output", outFile]);
+        return true;
+      } catch (err) {
+        if (attempt === SCRAPE_ATTEMPTS) {
+          console.error(`    FAIL ${url} (after ${SCRAPE_ATTEMPTS} tries) — ${err.message.slice(0, 100)}`);
+          return false;
+        }
+        await new Promise((r) => setTimeout(r, 2000 * attempt));
+      }
+    }
+  }
+
   async function worker() {
     while (queue.length) {
       const url = queue.shift();
       const outFile = join(PAGES_DIR, `${String(pageIdx++).padStart(5, "0")}.json`);
-      try {
-        await runFc([
-          "scrape",
-          url,
-          "--only-main-content",
-          "--format", "markdown",
-          "--json",
-          "--output", outFile,
-        ]);
-      } catch (err) {
-        failed++;
-        console.error(`    FAIL ${url} — ${err.message.slice(0, 120)}`);
-      }
+      const ok = await scrapeWithRetry(url, outFile);
+      if (!ok) failed++;
       done++;
       if (done % 25 === 0 || done === todo.length) {
         console.log(`    Progress: ${done}/${todo.length} (failed=${failed})`);
