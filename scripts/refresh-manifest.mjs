@@ -13,7 +13,7 @@
 //   - Pagination disambiguation: querystring appended to slug as -p<N>
 //   - Strip mass.gov boilerplate header (state seal + "official website" preamble)
 
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { dirname, join, resolve } from "node:path";
@@ -180,9 +180,36 @@ async function main() {
     written++;
   }
 
+  // Record committed source docs this crawl did NOT re-fetch. Firecrawl /map
+  // discovery is non-deterministic, so any given run may not re-surface every
+  // previously-captured page. Without this, such pages silently drop out of the
+  // manifest's audit trail even though their files remain committed. We re-hash
+  // them from disk and mark them "retained" so the manifest stays complete.
+  const tracked = new Set(manifest.filter((e) => e.local_path).map((e) => e.local_path));
+  const DATA_DIR = join(REPO_ROOT, "data");
+  let retained = 0;
+  const onDisk = (await readdir(DATA_DIR, { recursive: true }))
+    .map((f) => "data/" + f.split("\\").join("/"))
+    .filter((f) => f.endsWith(".md"))
+    .sort();
+  for (const rel of onDisk) {
+    if (tracked.has(rel)) continue;
+    const buf = await readFile(join(REPO_ROOT, rel), "utf8");
+    const urlMatch = buf.match(/^source_url:\s*(.+)$/m);
+    const fetchedMatch = buf.match(/^fetched_at:\s*(.+)$/m);
+    manifest.push({
+      url: urlMatch ? urlMatch[1].trim() : null,
+      local_path: rel,
+      sha256: sha256(Buffer.from(buf, "utf8")),
+      fetched_at: fetchedMatch ? fetchedMatch[1].trim() : null,
+      status: "retained",
+    });
+    retained++;
+  }
+
   await writeFile(MANIFEST_PATH, JSON.stringify(manifest, null, 2) + "\n", "utf8");
 
-  console.log(`Wrote: ${written}, linked: ${linked}, skipped: ${skipped}`);
+  console.log(`Wrote: ${written}, linked: ${linked}, retained: ${retained}, skipped: ${skipped}`);
   console.log(`Manifest: ${MANIFEST_PATH}`);
 }
 

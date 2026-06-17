@@ -1,52 +1,79 @@
 # Status
 
-## Pending: initial Firecrawl crawl (target: 2026-05-15 13:00 UTC / 09:00 EDT)
+## ✅ Live — automated monthly crawl is running
 
-The repo currently contains only scaffolding — `data/` subfolders hold `.gitkeep` placeholders and no actual content.
+The initial-crawl scaffolding described in earlier versions of this file is **done**.
+`data/` holds real content (78 committed source documents), and the crawl runs
+unattended on GitHub Actions.
 
-The initial crawl is automated via [`.github/workflows/crawl.yml`](../.github/workflows/crawl.yml) and will fire on **2026-05-15 at 13:00 UTC (09:00 EDT)** — the date the Firecrawl billing cycle resets. It then re-runs **monthly on the 15th** to keep the data fresh; the crawl is idempotent (manifest tracks sha256, so commits only land if content actually changed).
+| | |
+|---|---|
+| State | **Live / automated** |
+| Last run | **2026-06-15 18:04 UTC** — `github-actions[bot]`, commit `3ccba15` |
+| Last run result | 65 pages fetched OK · 13 retained from prior runs · 4 skipped (non-MassAbility) |
+| Source docs committed | 78 `.md` files under `data/` |
+| Manifest entries | 82 (`docs/crawl-manifest.json`) |
+| Schedule | `0 13 15 * *` — 13:00 UTC on the 15th of every month |
+| Next run | **2026-07-15 13:00 UTC** |
+| `FIRECRAWL_API_KEY` secret | Set (confirmed — the May 18 and Jun 15 bot runs cleared the credit-check gate) |
 
-## One manual step required: set the FIRECRAWL_API_KEY secret
+Workflow: [`.github/workflows/crawl.yml`](../.github/workflows/crawl.yml) ·
+Run logs: https://github.com/Woop91/MassAbility-DB/actions/workflows/crawl.yml
 
-The workflow needs your Firecrawl API key as a repo secret. Until it's set, the workflow's first step will hard-fail with a clear error message.
+## Run history
 
-**Option A — `gh` CLI:**
+| Date | Author | Pages | Note |
+|---|---|---|---|
+| 2026-05-08 | Wardis | — | Scaffold + workflow + STATUS |
+| 2026-05-17 | Wardis | 10 | v1 BFS crawl (seed-only; mass.gov hides links behind JS) |
+| 2026-05-18 | github-actions[bot] | 58 | v2 pipeline (map → filter → scrape) |
+| 2026-06-15 | github-actions[bot] | 65 | v2 pipeline (current) |
+
+## How it works
+
+The workflow ([`crawl.yml`](../.github/workflows/crawl.yml)) on each run:
+
+1. Checks out the repo, installs Node 22 + `firecrawl-cli`.
+2. Verifies `FIRECRAWL_API_KEY` is set and remaining credits ≥ 300 (hard-fails otherwise).
+3. Runs [`scripts/crawl.mjs`](../scripts/crawl.mjs) — the **v2 pipeline**:
+   `firecrawl /map` (≈500 candidate URLs for query `massability`) → relevance filter
+   → per-URL `scrape` → merge into `.firecrawl/crawl.json` (gitignored).
+4. Runs [`scripts/refresh-manifest.mjs`](../scripts/refresh-manifest.mjs) — writes
+   `data/<bucket>/<slug>.md`, strips mass.gov boilerplate, and rebuilds
+   `docs/crawl-manifest.json` with sha256 + `fetched_at`.
+5. Commits as `github-actions[bot]` (only if something changed) and pushes to `main`.
+
+It is idempotent: a re-fetch only lands a commit if a page's `sha256` actually changed.
+
+## Retained pages (non-deterministic discovery)
+
+Firecrawl's `/map` discovery is not deterministic — a given run may not re-surface
+every previously-captured page. `refresh-manifest.mjs` therefore re-hashes any
+committed `data/**/*.md` that the current run did **not** re-fetch and records it
+with `status: "retained"`, so the manifest stays a complete audit trail of every
+file in the repo (no page silently disappears from the trail). As of 2026-06-17
+there are 13 such retained pages (e.g. the Brockton / Fall River / Malden / Roxbury
+office pages and the full locations index), all originally fetched 2026-05-18.
+
+## Triggering a run manually
+
+GitHub UI: https://github.com/Woop91/MassAbility-DB/actions/workflows/crawl.yml →
+**Run workflow**.
+
+Locally (requires `FIRECRAWL_API_KEY` in the environment + ≥300 credits):
+
 ```bash
-# Get your key from https://www.firecrawl.dev/app/api-keys
-gh secret set FIRECRAWL_API_KEY --repo Woop91/MassAbility-DB
-# Paste the key when prompted; it never appears in logs or the UI again.
+node scripts/crawl.mjs            # fetch → .firecrawl/crawl.json
+node scripts/refresh-manifest.mjs # write data/*.md + rebuild manifest
 ```
 
-**Option B — GitHub web UI:**
-1. https://github.com/Woop91/MassAbility-DB/settings/secrets/actions
-2. Click **New repository secret**
-3. Name: `FIRECRAWL_API_KEY`
-4. Value: paste the key from https://www.firecrawl.dev/app/api-keys
-5. Click **Add secret**
+## Notes / caveats
 
-## How to test before May 15
-
-Once the secret is set, you can manually trigger a workflow run from the Actions tab to verify wiring (it'll abort safely on the credit-check step until credits are available again, but you'll see whether checkout / install / API-key wiring is working):
-
-- https://github.com/Woop91/MassAbility-DB/actions/workflows/crawl.yml → **Run workflow**
-
-## Run flow on May 15
-
-1. GitHub Actions cron fires at 13:00 UTC
-2. Workflow checks out repo, installs Node 22 + firecrawl CLI
-3. Verifies `FIRECRAWL_API_KEY` is set and credits ≥ 300
-4. Runs `scripts/crawl.sh` (300-URL, depth-3 crawl of `mass.gov/orgs/massability/*`)
-5. Runs `node scripts/refresh-manifest.mjs` (builds `docs/crawl-manifest.json` + dedupe)
-6. Commits as `github-actions[bot]` with a `data:` message including page counts
-7. Pushes back to `main`
-8. Logs visible at https://github.com/Woop91/MassAbility-DB/actions
-
-## Why GitHub Actions (not a Claude Code routine)
-
-A `/schedule` remote routine was considered first but rejected — Anthropic's cloud sandbox has no secret-injection mechanism for the Firecrawl API key (it would have to be embedded in the prompt, exposed in the routine config), and write-access to push back to `Woop91/MassAbility-DB` from a remote agent is uncertain.
-
-GitHub Actions naturally solves both: encrypted repo secrets + auto-provisioned `GITHUB_TOKEN` with write access via `permissions: contents: write`.
-
-## Why not curl/Playwright
-
-mass.gov serves **403 Forbidden** to plain `curl` regardless of User-Agent (WAF / bot detection). Playwright would work but is slower per-page and token-heavier; for a one-shot 300-URL pull, Firecrawl is the right tool.
+- **DST drift:** cron is fixed at 13:00 UTC = 09:00 ET during EDT, but 08:00 ET
+  during EST (Nov–Mar). Cosmetic only; adjust the cron if the wall-clock hour matters.
+- **Why GitHub Actions, not a Claude `/schedule` routine:** the cloud sandbox has no
+  secret-injection path for the Firecrawl key, and push access from a remote agent is
+  uncertain. Actions gives encrypted repo secrets + an auto-provisioned `GITHUB_TOKEN`
+  with `contents: write`.
+- **Why not curl/Playwright:** mass.gov returns 403 to plain `curl` (WAF/bot
+  detection); Playwright works but is slower and token-heavier per page than Firecrawl.

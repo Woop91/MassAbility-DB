@@ -485,5 +485,96 @@
     "sha256": "7259f1481b9d0f0046d4577e34be86155d0b3c9f67ec16720d6be3e80890f044",
     "fetched_at": "2026-06-15T18:04:41.480Z",
     "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/info-details/assistive-technology-available-inventory-and-resources",
+    "local_path": "data/info-details/assistive-technology-available-inventory-and-resources.md",
+    "sha256": "71732202a8bad66bf7152323a1bf6298bc2e1342e44a2a19427d1e7002c4f107",
+    "fetched_at": "2026-05-18T00:56:20.694Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/info-details/massability-connect-faqs",
+    "local_path": "data/info-details/massability-connect-faqs.md",
+    "sha256": "93ff1980402501bb39f4df6de5b2f6d19cca79669adbbec100313fbb8fbcfff3",
+    "fetched_at": "2026-05-18T00:56:20.670Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/info-details/massachusetts-state-rehabilitation-council-ma-src",
+    "local_path": "data/info-details/massachusetts-state-rehabilitation-council-ma-src.md",
+    "sha256": "b628f75572b2528617805b300e0636aabe8efdf742e118b8f09c5a8d1ef3b209",
+    "fetched_at": "2026-05-18T00:56:20.692Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/info-details/momentum",
+    "local_path": "data/info-details/momentum.md",
+    "sha256": "1afe22dd44254718cebc2189b36706e9a96fd14fcd4da104ea54c6b3c0620b4f",
+    "fetched_at": "2026-05-18T00:56:20.693Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/info-details/my-internship-at-massability-0",
+    "local_path": "data/info-details/my-internship-at-massability-0.md",
+    "sha256": "f457be16b9e14e9da70d52b64b61f2f733140850c63f2c8316ef1199ceb488ad",
+    "fetched_at": "2026-05-18T00:56:20.691Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/info-details/workforce-university-massability",
+    "local_path": "data/info-details/workforce-university-massability.md",
+    "sha256": "d086e7eb69cab91c602cc0af2f5375fc51c49d058340776540f9b5b9b4a7d67b",
+    "fetched_at": "2026-05-18T00:56:20.671Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-brockton",
+    "local_path": "data/locations/massability-brockton.md",
+    "sha256": "1b97394d17c5a8eca9beb4a48d3c89a889ea2fd9cadf153f776d73b0e805f886",
+    "fetched_at": "2026-05-18T00:56:20.685Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-fall-river",
+    "local_path": "data/locations/massability-fall-river.md",
+    "sha256": "88c3929be3daa99fc548e9acec421f7a9ca63fb37b1dbb9e0ac3e0b244b63302",
+    "fetched_at": "2026-05-18T00:56:20.673Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-malden",
+    "local_path": "data/locations/massability-malden.md",
+    "sha256": "fe49d6a959299ef57decf3dab6e43d3ae78fdad92d0c1b2cbc762a67429a8c89",
+    "fetched_at": "2026-05-18T00:56:20.674Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-roxbury",
+    "local_path": "data/locations/massability-roxbury.md",
+    "sha256": "646066c25187a3edb0b4d16a47f8a895b4e7cb25737f2246baf9b6375bfec915",
+    "fetched_at": "2026-05-18T00:56:20.673Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/forms/submit-a-massability-public-records-request",
+    "local_path": "data/orgs-massability/forms-submit-a-massability-public-records-request.md",
+    "sha256": "b35b42777eb15c20d9c9a04fb6a180ce4cfaa4a68c3d8fef7aa0c4e262a17312",
+    "fetched_at": "2026-05-18T00:56:20.691Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/orgs/massability/locations",
+    "local_path": "data/orgs-massability/locations.md",
+    "sha256": "439b51e02cee6ed9305da28421613b18307d364bbbe914ce3c8260d17106f58c",
+    "fetched_at": "2026-05-18T00:56:20.666Z",
+    "status": "retained"
+  },
+  {
+    "url": "https://www.mass.gov/news/creating-equity-with-assistive-technology",
+    "local_path": "data/press-releases/creating-equity-with-assistive-technology.md",
+    "sha256": "64f9c02a8b39f3bc0b7783134da877666ca31111e3fb69242785b673759c31eb",
+    "fetched_at": "2026-05-18T00:56:20.694Z",
+    "status": "retained"
   }
 ]
