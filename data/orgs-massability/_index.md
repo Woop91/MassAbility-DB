@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/orgs/massability
 title: MassAbility | Mass.gov
-fetched_at: 2026-06-17T18:58:27.159Z
+fetched_at: 2026-06-17T19:13:24.342Z
 ---
 
 # MassAbility

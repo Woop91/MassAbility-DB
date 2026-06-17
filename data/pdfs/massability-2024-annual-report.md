@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/doc/massability-2024-annual-report/download
 title: 
-fetched_at: 2026-06-17T18:58:27.193Z
+fetched_at: 2026-06-17T19:13:24.385Z
 ---
 
 # Annual Report FY24

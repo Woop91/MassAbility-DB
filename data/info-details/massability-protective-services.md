@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-protective-services
 title: MassAbility Protective Services | Mass.gov
-fetched_at: 2026-06-17T18:58:27.174Z
+fetched_at: 2026-06-17T19:13:24.363Z
 ---
 
 # MassAbility Protective Services

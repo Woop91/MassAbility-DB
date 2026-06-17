@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-home-and-community-life-services
 title: MassAbility Home and Community Life Services | Mass.gov
-fetched_at: 2026-06-17T18:58:27.169Z
+fetched_at: 2026-06-17T19:13:24.356Z
 ---
 
 # MassAbility Home and Community Life Services

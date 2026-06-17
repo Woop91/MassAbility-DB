@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/doc/massability-programs-and-services-brochure/download
 title: MassAbility_Signature Marketing Piece_Digital (1)
-fetched_at: 2026-06-17T18:58:27.193Z
+fetched_at: 2026-06-17T19:13:24.385Z
 ---
 
 # Possibility is Our Purpose

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/become-a-community-based-services-cbs-provider-for-massability
 title: Become a Community Based Services (CBS) Provider for MassAbility | Mass.gov
-fetched_at: 2026-06-17T18:58:27.182Z
+fetched_at: 2026-06-17T19:13:24.372Z
 ---
 
 # Become a Community Based Services (CBS) Provider for MassAbility

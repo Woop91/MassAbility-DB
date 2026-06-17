@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-disability-determination-services-dds
 title: MassAbility Disability Determination Services (DDS) | Mass.gov
-fetched_at: 2026-06-17T18:58:27.186Z
+fetched_at: 2026-06-17T19:13:24.376Z
 ---
 
 # MassAbility Disability Determination Services (DDS)

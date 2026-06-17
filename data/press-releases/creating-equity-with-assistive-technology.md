@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/news/creating-equity-with-assistive-technology
 title: Creating Equity with Assistive Technology
-fetched_at: 2026-06-17T18:58:27.190Z
+fetched_at: 2026-06-17T19:13:24.381Z
 ---
 
 # News   Creating Equity with Assistive Technology

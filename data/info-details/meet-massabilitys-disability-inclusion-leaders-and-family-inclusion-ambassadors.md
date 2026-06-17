@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/meet-massabilitys-disability-inclusion-leaders-and-family-inclusion-ambassadors
 title: Meet MassAbility's Disability Inclusion Leaders and Family Inclusion Ambassadors | Mass.gov
-fetched_at: 2026-06-17T18:58:27.171Z
+fetched_at: 2026-06-17T19:13:24.359Z
 ---
 
 # Meet MassAbility's Disability Inclusion Leaders and Family Inclusion Ambassadors

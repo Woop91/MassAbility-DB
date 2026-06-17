@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-connect-faqs
 title: MassAbility Connect FAQs | Mass.gov
-fetched_at: 2026-06-17T18:58:27.169Z
+fetched_at: 2026-06-17T19:13:24.355Z
 ---
 
 # MassAbility Connect FAQs

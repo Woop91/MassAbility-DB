@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-partners
 title: MassAbility Partners | Mass.gov
-fetched_at: 2026-06-17T18:58:27.198Z
+fetched_at: 2026-06-17T19:13:24.392Z
 ---
 
 # MassAbility Partners

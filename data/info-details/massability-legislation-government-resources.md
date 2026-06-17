@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-legislation-government-resources
 title: MassAbility Legislation & Government Resources | Mass.gov
-fetched_at: 2026-06-17T18:58:27.185Z
+fetched_at: 2026-06-17T19:13:24.375Z
 ---
 
 # MassAbility Legislation & Government Resources

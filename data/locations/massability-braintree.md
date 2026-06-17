@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-braintree
 title: MassAbility Braintree | Mass.gov
-fetched_at: 2026-06-17T18:46:46.178Z
+fetched_at: 2026-06-17T19:13:24.358Z
 ---
 
 # MassAbility Braintree

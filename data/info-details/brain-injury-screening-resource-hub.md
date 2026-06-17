@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/brain-injury-screening-resource-hub
 title: Brain Injury Screening Resource Hub | Mass.gov
-fetched_at: 2026-06-17T18:58:27.193Z
+fetched_at: 2026-06-17T19:13:24.384Z
 ---
 
 # Brain Injury Screening Resource Hub

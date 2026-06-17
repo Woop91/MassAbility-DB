@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-lawrence
 title: MassAbility Lawrence | Mass.gov
-fetched_at: 2026-06-17T18:58:27.170Z
+fetched_at: 2026-06-17T19:13:24.357Z
 ---
 
 # MassAbility Lawrence

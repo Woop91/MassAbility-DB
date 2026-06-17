@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-pittsfield
 title: MassAbility Pittsfield | Mass.gov
-fetched_at: 2026-06-15T18:04:41.463Z
+fetched_at: 2026-06-17T19:13:24.359Z
 ---
 
 # MassAbility Pittsfield

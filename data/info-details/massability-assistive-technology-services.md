@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-assistive-technology-services
 title: MassAbility Assistive Technology Services | Mass.gov
-fetched_at: 2026-06-17T18:58:27.166Z
+fetched_at: 2026-06-17T19:13:24.350Z
 ---
 
 # MassAbility Assistive Technology Services

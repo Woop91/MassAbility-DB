@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/follow-massability-on-social-media
 title: Follow MassAbility on Social Media | Mass.gov
-fetched_at: 2026-06-15T18:04:41.465Z
+fetched_at: 2026-06-17T19:13:24.391Z
 ---
 
 # Follow MassAbility on Social Media

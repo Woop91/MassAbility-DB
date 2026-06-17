@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/moving-forward-program
 title: Moving Forward Program | Mass.gov
-fetched_at: 2026-06-17T18:58:27.192Z
+fetched_at: 2026-06-17T19:13:24.384Z
 ---
 
 # Moving Forward Program

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/hire-with-massability
 title: Hire With MassAbility | Mass.gov
-fetched_at: 2026-06-17T18:58:27.184Z
+fetched_at: 2026-06-17T19:13:24.374Z
 ---
 
 ![Massachusetts State Seal](https://www.mass.gov/libraries/mayflower-artifacts/assets/images/logo/stateseal.png)

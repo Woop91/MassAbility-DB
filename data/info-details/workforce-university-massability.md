@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/workforce-university-massability
 title: Workforce University - MassAbility | Mass.gov
-fetched_at: 2026-06-17T18:58:27.198Z
+fetched_at: 2026-06-17T19:13:24.380Z
 ---
 
 # Workforce University - MassAbility

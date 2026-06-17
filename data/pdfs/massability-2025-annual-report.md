@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/doc/massability-2025-annual-report/download
 title: FY25 Annual Report MassAbility
-fetched_at: 2026-06-17T18:58:27.189Z
+fetched_at: 2026-06-17T19:13:24.380Z
 ---
 
 # Annual Report

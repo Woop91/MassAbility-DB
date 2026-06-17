@@ -2,422 +2,499 @@
   {
     "url": "https://www.mass.gov/orgs/massability",
     "local_path": "data/orgs-massability/_index.md",
-    "sha256": "84a08237591f319cd069ebfd4f384d5ff8f89544137e01c9c94b482bad1e7c9b",
-    "fetched_at": "2026-06-17T18:58:27.161Z",
+    "sha256": "81673f962d516529416859cf2a9c166ee54b5fe8714b2d5dccbc86935cf5a793",
+    "fetched_at": "2026-06-17T19:13:24.345Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/massability-services",
     "local_path": "data/orgs-massability/massability-services.md",
-    "sha256": "b3763d3837192ace614b3295d45bdca58d1001c50c0466700cd872d48163f3a5",
-    "fetched_at": "2026-06-17T18:58:27.162Z",
+    "sha256": "36a36bb53b5415b4349dd51e91170a2348122a4076796b914ee481f7a5d5a2ba",
+    "fetched_at": "2026-06-17T19:13:24.346Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-springfield",
     "local_path": "data/locations/massability-springfield.md",
-    "sha256": "b95b99771ecc28eb7d8521d8c51f23086dfc1c0e66fb18e4390eed3194deed98",
-    "fetched_at": "2026-06-17T18:58:27.163Z",
+    "sha256": "6c06b6debdd2ba44fd726e7e08d614516deb186460903cc9a0b43e09d69470c6",
+    "fetched_at": "2026-06-17T19:13:24.346Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-services-for-students-and-youth",
     "local_path": "data/info-details/massability-services-for-students-and-youth.md",
-    "sha256": "1819637dfdf97f6304f0a0ca173edea09665ea58ab582d41bb841dfc990b1a4f",
-    "fetched_at": "2026-06-17T18:58:27.163Z",
+    "sha256": "a4daebe9a94934d3efae4f7d0181e167914f4ca4b2e93befa61209ab3d736a20",
+    "fetched_at": "2026-06-17T19:13:24.347Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/orgs/massability/news",
     "local_path": "data/orgs-massability/news.md",
-    "sha256": "02fb7525cbe40c15ce6b964d4e3e6ceb83c584b51d386dfa7384b947a719c740",
-    "fetched_at": "2026-06-17T18:58:27.163Z",
+    "sha256": "4b892abf9455920004e7d926b3b2dd57727e0c89e2a41a82380c03e9339f5008",
+    "fetched_at": "2026-06-17T19:13:24.347Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/news/governor-healey-signs-legislation-renaming-massachusetts-rehabilitation-commission-to-massability",
     "local_path": "data/press-releases/governor-healey-signs-legislation-renaming-massachusetts-rehabilitation-commissi.md",
-    "sha256": "c428124fb73c7db9355429e05611124fdea78476c306f0de84f474a30b3c1c36",
-    "fetched_at": "2026-06-17T18:58:27.164Z",
+    "sha256": "14f8074588b3a899f41f720512f020ae2e75f854b219fc0441a0c4e058ae69ee",
+    "fetched_at": "2026-06-17T19:13:24.348Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/orgs/massability/locations",
     "local_path": "data/orgs-massability/locations.md",
-    "sha256": "15cf364bbbce7b96b8e7d0ff0ffb0c5aadf3f7a990ce4779253494d66fb5704b",
-    "fetched_at": "2026-06-17T18:58:27.165Z",
+    "sha256": "125af7ca9f211d81ed35c9b24a52dab20ee6fb7f40e2b28d52a1318021b5b240",
+    "fetched_at": "2026-06-17T19:13:24.348Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-contacts",
     "local_path": "data/info-details/massability-contacts.md",
-    "sha256": "5a12557c0836b117633c3669e75b221cc81ac9ec7eea516f4f09a842fdd89922",
-    "fetched_at": "2026-06-17T18:58:27.165Z",
+    "sha256": "8eada15e932d4a46f556820a19da3c0077eefe2c58f7bf7aad01686fb68b3ef5",
+    "fetched_at": "2026-06-17T19:13:24.349Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-career-services-and-business-relations",
     "local_path": "data/info-details/massability-career-services-and-business-relations.md",
-    "sha256": "59ae3e3e1ade03a47eb233f8c0ddcad1c2b5ac30e9e8d0a44b4cec13955c1e25",
-    "fetched_at": "2026-06-17T18:58:27.166Z",
+    "sha256": "243efe0aa57d7b3fb285be83dde8a0e6e1828163fe61f1d2ff3dddc08bd012dd",
+    "fetched_at": "2026-06-17T19:13:24.350Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/what-does-massability-do",
     "local_path": "data/info-details/what-does-massability-do.md",
-    "sha256": "9748c93ff0c899a983e4bf5f045b3c9746dd220d63dc6a694cb4c92dd9041408",
-    "fetched_at": "2026-06-17T18:58:27.166Z",
+    "sha256": "776e47d1930cbd2eab716ba1a4d833fc5d29151a8fe4b732e1c3f4148bb13d17",
+    "fetched_at": "2026-06-17T19:13:24.350Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-assistive-technology-services",
     "local_path": "data/info-details/massability-assistive-technology-services.md",
-    "sha256": "29aa7c4ba46131a00d17a8b90ca027058432220e84c6db3e40f3c837a7b585f3",
-    "fetched_at": "2026-06-17T18:58:27.167Z",
-    "status": "ok"
-  },
-  {
-    "url": "https://www.mass.gov/locations/massability-fall-river",
-    "local_path": "data/locations/massability-fall-river.md",
-    "sha256": "e0ef5be1a773f4b3cec00b622827e80bf454856fb043a24758c2a2372b187941",
-    "fetched_at": "2026-06-17T18:58:27.167Z",
+    "sha256": "8df703e100033720253708adabf94187129598154ce0f96215f287cebbf00703",
+    "fetched_at": "2026-06-17T19:13:24.351Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-lowell",
     "local_path": "data/locations/massability-lowell.md",
-    "sha256": "ca984e31dc9b05f68ef60cfefb0a0dfc0dc59bc3e43fa0c845c6fc0df5d70e45",
-    "fetched_at": "2026-06-17T18:58:27.168Z",
+    "sha256": "ac3e767da1380629e4741d5d9c33e0c1d74d13f1d7d252a5fbe933d343677c3c",
+    "fetched_at": "2026-06-17T19:13:24.352Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/news/meet-massabilitys-disability-inclusion-leaders",
+    "local_path": "data/press-releases/meet-massabilitys-disability-inclusion-leaders.md",
+    "sha256": "231e2310dbffb3055b42a37cae21426b9882c8ebbf64c29d3c195ff19140e773",
+    "fetched_at": "2026-06-17T19:13:24.352Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-hyannis",
+    "local_path": "data/locations/massability-hyannis.md",
+    "sha256": "5d31178636353abeee2e84359fe3765725e2c593998ab0170c68cdc826b8784f",
+    "fetched_at": "2026-06-17T19:13:24.353Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-plymouth",
+    "local_path": "data/locations/massability-plymouth.md",
+    "sha256": "77bad1d8d7324ffaea93b679a4dcb4956df18ba0f14c99cec285192d2dca19d9",
+    "fetched_at": "2026-06-17T19:13:24.353Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-salem",
+    "local_path": "data/locations/massability-salem.md",
+    "sha256": "13de43251b074d404b995ea19d5ae58acf37716f30857c1369dcb834d38091ab",
+    "fetched_at": "2026-06-17T19:13:24.353Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-taunton",
     "local_path": "data/locations/massability-taunton.md",
-    "sha256": "b3edaf707b8b467d61dffe377d760a454552d5239123d0353b58676a8c4b57f5",
-    "fetched_at": "2026-06-17T18:58:27.168Z",
+    "sha256": "446bc0674f6792fd22055919b40cc2c83471ffc6f144f89daf82e5fb9e6aabd4",
+    "fetched_at": "2026-06-17T19:13:24.354Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-new-bedford",
+    "local_path": "data/locations/massability-new-bedford.md",
+    "sha256": "abf080e58e8c5f889d03a2e36e17883fd7b54e6031c6f3ed87e6c77cb8ed24be",
+    "fetched_at": "2026-06-17T19:13:24.354Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-roxbury",
     "local_path": "data/locations/massability-roxbury.md",
-    "sha256": "7415e8e699bdecbfc01b0d30ebb4c74529b2c78ae58c823a1be7d2873dffe1ed",
-    "fetched_at": "2026-06-17T18:58:27.169Z",
+    "sha256": "384274790e4ede440662149a6cf8796cb70a02cbe784229fa7eeef3e61a24ee2",
+    "fetched_at": "2026-06-17T19:13:24.355Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-north-adams",
+    "local_path": "data/locations/massability-north-adams.md",
+    "sha256": "7bc2df66713bb80baa8e937de6cdf8c28351f6c908960dab0630ada5c3b5fba7",
+    "fetched_at": "2026-06-17T19:13:24.355Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-connect-faqs",
     "local_path": "data/info-details/massability-connect-faqs.md",
-    "sha256": "1692c867f40781f08300309cca4be71d55914ae5f61073e2403f8fa7a8971a9a",
-    "fetched_at": "2026-06-17T18:58:27.169Z",
+    "sha256": "87c36d7d577b9fae6703fadc2e7e716ddb1dcf079597b2136aa3118ddc9806e7",
+    "fetched_at": "2026-06-17T19:13:24.356Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-home-and-community-life-services",
     "local_path": "data/info-details/massability-home-and-community-life-services.md",
-    "sha256": "fecd00b9daa1d7e0492c54566ec9fe863c040231d17fa82c104ff745e894837e",
-    "fetched_at": "2026-06-17T18:58:27.169Z",
+    "sha256": "e67a00f845d6b22468170078208b2798db25111e07317006ec61831344ecef8e",
+    "fetched_at": "2026-06-17T19:13:24.356Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/lists/massability-program-materials",
     "local_path": "data/lists/massability-program-materials.md",
-    "sha256": "4b967b75d831d62a6b23f3651dd66fee7b8d4c1b7c169c782f32cd75e39340cc",
-    "fetched_at": "2026-06-17T18:58:27.170Z",
+    "sha256": "53b63e4e94d0e2aec42daeb0669b987695787950d5dc99a6bdc920d6b0d85dd2",
+    "fetched_at": "2026-06-17T19:13:24.357Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-career-services",
     "local_path": "data/info-details/massability-career-services.md",
-    "sha256": "681687de9f128150dbed58ca979d817dcd73f80149310d1b422ebf256485aef6",
-    "fetched_at": "2026-06-17T18:58:27.170Z",
+    "sha256": "0d00481a92f588c47fd9f313b3209460e116a1f47379dbd24bb3c3d28c044fa0",
+    "fetched_at": "2026-06-17T19:13:24.357Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-lawrence",
     "local_path": "data/locations/massability-lawrence.md",
-    "sha256": "7cabd55d322c6cbfb6413f917cb46e00e35d2b197660ab47bfbd953d9d7eef75",
-    "fetched_at": "2026-06-17T18:58:27.171Z",
+    "sha256": "39a442f8e200d4dec028872b7ad0c95eba16c24277670403b18ee590905bb6f6",
+    "fetched_at": "2026-06-17T19:13:24.357Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-framingham",
+    "local_path": "data/locations/massability-framingham.md",
+    "sha256": "9677d2df24407aa433ba6de1f355dde3bbe23ec9d77b081892c2c04f1cdff862",
+    "fetched_at": "2026-06-17T19:13:24.358Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-malden",
     "local_path": "data/locations/massability-malden.md",
-    "sha256": "85c0ec3e5168ebec96cbc93e3eec1b2d0be60a8b36ea0f6467b06627a4e21f28",
-    "fetched_at": "2026-06-17T18:58:27.171Z",
+    "sha256": "88ecba10f507087472c24be6b01cc00d51598c529845c534ae5871b76952f195",
+    "fetched_at": "2026-06-17T19:13:24.358Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-braintree",
+    "local_path": "data/locations/massability-braintree.md",
+    "sha256": "ac1e6e2acf1744060d143afb5af265b705d03352207bb2bfe74b27c100532bf5",
+    "fetched_at": "2026-06-17T19:13:24.359Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/meet-massabilitys-disability-inclusion-leaders-and-family-inclusion-ambassadors",
     "local_path": "data/info-details/meet-massabilitys-disability-inclusion-leaders-and-family-inclusion-ambassadors.md",
-    "sha256": "3e0c2d181b9cad32e09c5494b51f2e45559fbbc2015b7f0954da2ef042db99ed",
-    "fetched_at": "2026-06-17T18:58:27.171Z",
+    "sha256": "60c2d617bc42c77703c8e836cf51035cab6216226151e71b9cf35f1adc444559",
+    "fetched_at": "2026-06-17T19:13:24.359Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-pittsfield",
+    "local_path": "data/locations/massability-pittsfield.md",
+    "sha256": "f10f246c6408389fffbaae728aa1ea258ec97cac00ef2c652239fc1e46c89aee",
+    "fetched_at": "2026-06-17T19:13:24.360Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-greenfield",
     "local_path": "data/locations/massability-greenfield.md",
-    "sha256": "f1121aa4c129c0ef49a10cde4ad96a33c4c7fb506b385b5d775be4a72e93a810",
-    "fetched_at": "2026-06-17T18:58:27.172Z",
+    "sha256": "771811fb27cfd7546196648c1ed14dbd64a8a1b81b36268ed5871eb7461fb761",
+    "fetched_at": "2026-06-17T19:13:24.360Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-fitchburg",
     "local_path": "data/locations/massability-fitchburg.md",
-    "sha256": "2e922f54c58f939cbbd09eaddc381fbf131bed005d9c2f6f887ee3b1902705bc",
-    "fetched_at": "2026-06-17T18:58:27.172Z",
+    "sha256": "96cc766a441dbfca48688fa061b5fe401831dba3bf6cbd9d92a6be5cab1c659e",
+    "fetched_at": "2026-06-17T19:13:24.360Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/locations/massability-southbridge",
+    "local_path": "data/locations/massability-southbridge.md",
+    "sha256": "a85312da41974b36c4fc96a92b928256530057d8079f6902a9596ecf86a53e64",
+    "fetched_at": "2026-06-17T19:13:24.361Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/massability-brain-injury-services",
+    "local_path": "data/orgs-massability/massability-brain-injury-services.md",
+    "sha256": "cd0115e43fea3b706e12fa52bb7103abca34e2ba2c4771990a4a4f3264a77a7e",
+    "fetched_at": "2026-06-17T19:13:24.361Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/orgs/massability/locations?page=1",
     "local_path": "data/orgs-massability/locations-p1.md",
-    "sha256": "b07281eaa44914250954b2fa73b5d521cc7180cd42d83fa9656299e7e74f3c1e",
-    "fetched_at": "2026-06-17T18:58:27.174Z",
+    "sha256": "0615aa92af829ba69d9262f42acaeb79b97b220b82302cb93dd4e19e2331abc0",
+    "fetched_at": "2026-06-17T19:13:24.363Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-protective-services",
     "local_path": "data/info-details/massability-protective-services.md",
-    "sha256": "941c6e3b797c6c33b598f7884a03564456025febca93e2bae5b8a3c6bac85735",
-    "fetched_at": "2026-06-17T18:58:27.174Z",
+    "sha256": "c7fab508783ead9db6a120753a74f133f15c26e91041284853e9d0e0026e2070",
+    "fetched_at": "2026-06-17T19:13:24.363Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-additional-supports-for-disability-determination-services",
     "local_path": "data/info-details/massability-additional-supports-for-disability-determination-services.md",
-    "sha256": "5ecc5a578dfb95d341a0de0fa2176ded3db7f200774e4842878e2dfa1fada2c6",
-    "fetched_at": "2026-06-17T18:58:27.174Z",
+    "sha256": "9d25a4a17859d000689c7aa8beb41193fde681e4e63f75315ee70fe96a6c6e2b",
+    "fetched_at": "2026-06-17T19:13:24.364Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/why-you-should-join-massability",
     "local_path": "data/info-details/why-you-should-join-massability.md",
-    "sha256": "ac0da6e43acc201bc9630fec14073987eb9430575ecd11b34220daeda12e6776",
-    "fetched_at": "2026-06-17T18:58:27.175Z",
+    "sha256": "bc9088bbf689a9d5656714d2f1764544144d0ee72339ab5e62e96b0c3b8297e4",
+    "fetched_at": "2026-06-17T19:13:24.364Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/orgs/massability/locations?page=2",
     "local_path": "data/orgs-massability/locations-p2.md",
-    "sha256": "b938f8137df8399c11459be566cb66122bc8cc654aab6b51df6aca232387d95a",
-    "fetched_at": "2026-06-17T18:58:27.182Z",
+    "sha256": "17b9e80801e30e8dfece7df331f48c186731afbc49a525941793c05abe46fd68",
+    "fetched_at": "2026-06-17T19:13:24.372Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/become-a-community-based-services-cbs-provider-for-massability",
     "local_path": "data/info-details/become-a-community-based-services-cbs-provider-for-massability.md",
-    "sha256": "444376ac8722945aed478fb06c3ac737356c9b81495c2c87bdd4fbadd47233dc",
-    "fetched_at": "2026-06-17T18:58:27.183Z",
+    "sha256": "30f0830fe126f046a6b2b97f1571ebd32724c209ec033489ac3507d51a8197f3",
+    "fetched_at": "2026-06-17T19:13:24.372Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/lists/massability-annual-and-legislative-reports",
     "local_path": "data/lists/massability-annual-and-legislative-reports.md",
-    "sha256": "13d44c82ac8b164a49c1f42f55863f922e69bed2a957899d52c0a9bed726f08d",
-    "fetched_at": "2026-06-17T18:58:27.183Z",
+    "sha256": "ab3fd46bf23c458438677a0805b1d366c7498ffdd79bc6a4e9788006cd63b192",
+    "fetched_at": "2026-06-17T19:13:24.373Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/massability-public-records",
     "local_path": "data/orgs-massability/massability-public-records.md",
-    "sha256": "34daa80870db7d6d02364f63924b21daad33360fc7d51dfed316a163d5bb0bcd",
-    "fetched_at": "2026-06-17T18:58:27.183Z",
+    "sha256": "e8bf9431c8de5f95a7272e7cde8a220b862990e2e5e75ddb7dad57e99d8e2fb7",
+    "fetched_at": "2026-06-17T19:13:24.373Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/types-of-massability-referrals-for-students-and-youth",
     "local_path": "data/info-details/types-of-massability-referrals-for-students-and-youth.md",
-    "sha256": "5c2c9864e160424d12d9e4efdc52b56c7b5321389389bad27797a28961e68699",
-    "fetched_at": "2026-06-17T18:58:27.184Z",
+    "sha256": "4f1ad715aceae78a420d03f386c137897314bceff64f8cf61daad658172b1771",
+    "fetched_at": "2026-06-17T19:13:24.373Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-transportation-resources",
     "local_path": "data/info-details/massability-transportation-resources.md",
-    "sha256": "eecc0bd20fa7fcdb8cd42dc48cf0da3b90026e8c3848935ee6b504d325a3c596",
-    "fetched_at": "2026-06-17T18:58:27.184Z",
+    "sha256": "39b3ca4c0460c0dabdd0da601f3852593acec7277c5a95dba2f3b37f2d1dfcc3",
+    "fetched_at": "2026-06-17T19:13:24.374Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/hire-with-massability",
     "local_path": "data/orgs-massability/hire-with-massability.md",
-    "sha256": "68db4f075d098697e6e5fd7d2816735e83f646a4bc5e4512bf6094b8f00ed389",
-    "fetched_at": "2026-06-17T18:58:27.184Z",
+    "sha256": "dfac34f4577c5d83709d4fd450f741904fb70d45b425c599eead2c565d4e6a9e",
+    "fetched_at": "2026-06-17T19:13:24.374Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/ticket-to-work-program-at-massability",
     "local_path": "data/info-details/ticket-to-work-program-at-massability.md",
-    "sha256": "9926746eda2b97bd6e28ba64c679c97ecc95a288110c6870e0e06d661db8f03d",
-    "fetched_at": "2026-06-17T18:58:27.185Z",
+    "sha256": "6dd49448ce9fe7ffccd21c74b79662d76bb9cae8c3ebfe364dd7f1807a58681d",
+    "fetched_at": "2026-06-17T19:13:24.375Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/news/governor-healey-files-legislation-to-change-massachusetts-rehabilitation-commissions-name-to-massability-0",
     "local_path": "data/press-releases/governor-healey-files-legislation-to-change-massachusetts-rehabilitation-commiss.md",
-    "sha256": "a1d720ecf049b5f46a2eaf6e41f2d767eac19276b70a9cff181ca0e3c5a5963f",
-    "fetched_at": "2026-06-17T18:58:27.185Z",
+    "sha256": "6274956722cbc71d4e9e6ab8f6ce9750df4c94f4af613f91a59cdbd5908e8dd8",
+    "fetched_at": "2026-06-17T19:13:24.375Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massabilitys-internship-experience",
     "local_path": "data/info-details/massabilitys-internship-experience.md",
-    "sha256": "f5805d3473e7c2443451fc52ff21c1de791758a37139400ce1079683119db2b4",
-    "fetched_at": "2026-06-17T18:58:27.185Z",
+    "sha256": "9a2de51742f6767a3cc4de5e2804c9075c75d78364a93cb1956081dceefb15e3",
+    "fetched_at": "2026-06-17T19:13:24.375Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-legislation-government-resources",
     "local_path": "data/info-details/massability-legislation-government-resources.md",
-    "sha256": "75d806e3773dfdbd9b197d7b8a01a78da9a1c9eabf50543b8422ba7c9809180c",
-    "fetched_at": "2026-06-17T18:58:27.186Z",
+    "sha256": "cfc0134f460f94ac9a63510ac51fecce5b619a15150773113231b96e6edaed49",
+    "fetched_at": "2026-06-17T19:13:24.376Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-acronym-list",
     "local_path": "data/info-details/massability-acronym-list.md",
-    "sha256": "f515cfc4f4f7d7a3b174fbd573c3459ea6723d0bfd4ec0b3e6ff849626bba7c4",
-    "fetched_at": "2026-06-17T18:58:27.186Z",
+    "sha256": "5cc216c72de72c6b8df04aba21f199b2b8daf9e743e1dd300cb7131de3a3c25c",
+    "fetched_at": "2026-06-17T19:13:24.376Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-disability-determination-services-dds",
     "local_path": "data/info-details/massability-disability-determination-services-dds.md",
-    "sha256": "173a64622545d1f539125f0a086d75fc7189c60c3bce2056397b4d4421ee16f0",
-    "fetched_at": "2026-06-17T18:58:27.186Z",
+    "sha256": "f7b4e226d74f951e6ae28b3f047c5bf9c66425590c4bc1c110ddb33d03845b87",
+    "fetched_at": "2026-06-17T19:13:24.377Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/lists/massability-public-reports-and-meetings",
     "local_path": "data/lists/massability-public-reports-and-meetings.md",
-    "sha256": "8c59c4fd4d06f42af8ae5c6caa3de6dfbf8f36b08a893ccaf728dd04eefcf34a",
-    "fetched_at": "2026-06-17T18:58:27.187Z",
+    "sha256": "66ae45931b5d7b715a3a1a9edc16ce48b21d51129e5aa44f93151802d9d9b490",
+    "fetched_at": "2026-06-17T19:13:24.377Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/orgs/massability/events",
     "local_path": "data/orgs-massability/events.md",
-    "sha256": "d414e4dda326e5b6996ddb458c7875d1de132724aa4e77255bbfd40791a5f67d",
-    "fetched_at": "2026-06-17T18:58:27.187Z",
+    "sha256": "47605a4b8dffdd567a6463d3dc32bd4ca74a3f91fa6593ef86af33e295411b79",
+    "fetched_at": "2026-06-17T19:13:24.377Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/doc/src-fy26-recommendations-massability-response/download",
     "local_path": "data/pdfs/src-fy26-recommendations-massability-response.md",
-    "sha256": "c2d84c3bfe9ba558754f14ff3c970a366bc2b7c9218d240fcd9cc4d1eea314e8",
-    "fetched_at": "2026-06-17T18:58:27.187Z",
+    "sha256": "1c6dc1c827dc6132c68ce7dfc8e0e3a77f8fc0ee8c2c713289cf6abc67cfe4ea",
+    "fetched_at": "2026-06-17T19:13:24.378Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/administration-for-community-living-acl-grant-at-massability",
     "local_path": "data/info-details/administration-for-community-living-acl-grant-at-massability.md",
-    "sha256": "2f268a5b94e4a4b65283e8b9026785fc7c0073210642556fadbb2d7c98fbb95c",
-    "fetched_at": "2026-06-17T18:58:27.188Z",
+    "sha256": "52e093413080685af4598c6895a2e8ba73a8397879cb24d881727630c6eecf73",
+    "fetched_at": "2026-06-17T19:13:24.378Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/my-internship-at-massability-0",
     "local_path": "data/info-details/my-internship-at-massability-0.md",
-    "sha256": "7dea6bd13db75d2ba4892450f0482fc11c30fb134965ec28cff87e61b82448fd",
-    "fetched_at": "2026-06-17T18:58:27.188Z",
+    "sha256": "7be9387f413b72478652e41c7a0507abd1f792de193149bd0937d581fc44bac2",
+    "fetched_at": "2026-06-17T19:13:24.379Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/forms/submit-a-massability-public-records-request",
     "local_path": "data/orgs-massability/forms-submit-a-massability-public-records-request.md",
-    "sha256": "8868b9477346591c1ec55616b548a980b863a3f65dedbf2c3b49a5b1e167578e",
-    "fetched_at": "2026-06-17T18:58:27.188Z",
+    "sha256": "c765cae43b77b067b4fd6d89878900725ca6deb8b175301e0245031a5dda29c5",
+    "fetched_at": "2026-06-17T19:13:24.379Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/orgs/massability/events/past",
     "local_path": "data/orgs-massability/events-past.md",
-    "sha256": "f4d5391c8a53f59edee5d7189cce60c5e6710033fcabe0da9f32579c5ab9b11d",
-    "fetched_at": "2026-06-17T18:58:27.189Z",
+    "sha256": "173d4b4db05ba7a67fd91c1d8725b42f873459e312ef253b25a70e2ec101f363",
+    "fetched_at": "2026-06-17T19:13:24.379Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/news/massachusetts-permanent-commission-on-the-status-of-persons-with-disabilities-continues-meeting-the-moment-series-in-lowell-in-partnership-with-massability",
     "local_path": "data/press-releases/massachusetts-permanent-commission-on-the-status-of-persons-with-disabilities-co.md",
-    "sha256": "a3e135c77f6cde5f15769cf06f39067a96a8a3559c39575e9a7a8f1a2956d798",
-    "fetched_at": "2026-06-17T18:58:27.189Z",
+    "sha256": "c1bdb27572cdf40b6275c328b0cd1badf3074594f9da89f94d22b5f83e9a7a9e",
+    "fetched_at": "2026-06-17T19:13:24.380Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/info-details/workforce-university-massability",
+    "local_path": "data/info-details/workforce-university-massability.md",
+    "sha256": "a44106b6a4872bd06a3ac16e73ff6440bea52bb85d12d35cb3344f871a14710e",
+    "fetched_at": "2026-06-17T19:13:24.380Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/doc/massability-2025-annual-report/download",
     "local_path": "data/pdfs/massability-2025-annual-report.md",
-    "sha256": "74b34630a7708afac897f94fa8f2ac863713b7267456f04f84cb1f02aaefd3a8",
-    "fetched_at": "2026-06-17T18:58:27.189Z",
+    "sha256": "a3d40a123fdeb85f148cc2e0b8bade01ccace78ed1f2b5d11afcbf5399e2b4cc",
+    "fetched_at": "2026-06-17T19:13:24.381Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/apply-for-services",
     "local_path": "data/info-details/apply-for-services.md",
-    "sha256": "4c3232bda2385d7bbae142d0a4f7446245266026add05bc552bb9b4bf36e5c41",
-    "fetched_at": "2026-06-17T18:58:27.190Z",
+    "sha256": "3a2c5b5c3b0d641602d180d64665c25f7b7631812c24d61fb48fcd6427bce80e",
+    "fetched_at": "2026-06-17T19:13:24.381Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/news/creating-equity-with-assistive-technology",
     "local_path": "data/press-releases/creating-equity-with-assistive-technology.md",
-    "sha256": "df8112d5781b2c1c9d5dac87ffeb75e017819cc921606582d1e7e6a890e0ac9f",
-    "fetched_at": "2026-06-17T18:58:27.190Z",
+    "sha256": "b205c48e0119e416a428392fa06a74e1d97150ace4c5f07db4f6831f83b3da40",
+    "fetched_at": "2026-06-17T19:13:24.381Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/learn-how-to-apply",
     "local_path": "data/info-details/learn-how-to-apply.md",
-    "sha256": "aa388feb63a54c85d37b69065e06f87651dbb3902ce7fbee2a584697d6e83f3f",
-    "fetched_at": "2026-06-17T18:58:27.190Z",
+    "sha256": "25bd01acac6eb4fed65ba1e8c9020999b340e28337b574f9d557dfc5685fa883",
+    "fetched_at": "2026-06-17T19:13:24.382Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/orgs/massachusetts-state-rehabilitation-council",
     "local_path": "data/orgs-other/massachusetts-state-rehabilitation-council.md",
-    "sha256": "c03f5097cf6fa01f33dff2d71a302b17e5b350712c7e97d1734f62848287a1fe",
-    "fetched_at": "2026-06-17T18:58:27.191Z",
+    "sha256": "e11d3a99700c54ea15310166962af13f27f5461a76cdf30f54da65a949a1282c",
+    "fetched_at": "2026-06-17T19:13:24.382Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/grants-from-federal-state-and-the-municipal-government",
     "local_path": "data/info-details/grants-from-federal-state-and-the-municipal-government.md",
-    "sha256": "fc4921c696b5ffc356cca014c7cf629bfb2bfdb95ac0d17587d5540c685b9f5a",
-    "fetched_at": "2026-06-17T18:58:27.191Z",
+    "sha256": "099fb95c39f4e228bbdd112d1d7facf6e13d583434c6d6ea160fa7ea1fa74f51",
+    "fetched_at": "2026-06-17T19:13:24.383Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/how-to/how-to-apply-for-home-care-assistance-program-hcap",
     "local_path": null,
     "sha256": null,
-    "fetched_at": "2026-06-17T18:58:27.191Z",
+    "fetched_at": "2026-06-17T19:13:24.383Z",
     "status": "skipped",
     "reason": "no bucket match"
   },
   {
     "url": "https://www.mass.gov/info-details/determine-disability-benefits",
     "local_path": "data/info-details/determine-disability-benefits.md",
-    "sha256": "83d2d6a4182620b01189ddb2e6096e0c5cdec83f254e6b1f5cacde6f1c65c3d1",
-    "fetched_at": "2026-06-17T18:58:27.191Z",
+    "sha256": "c5f0a5ac9037aa8161706cd0396172bbd5cdee49728165e6dabb11ab90ffe062",
+    "fetched_at": "2026-06-17T19:13:24.383Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/become-an-employer-partner",
     "local_path": "data/info-details/become-an-employer-partner.md",
-    "sha256": "bf0fe86f3e3e9ffc27e93a10112253eebd03caf9ead633fb1dd69bac7b00bd80",
-    "fetched_at": "2026-06-17T18:58:27.192Z",
+    "sha256": "335fd27f2bf36166185967644e8eddec97b0b7cf9ae0ffee33cf4bff543a9011",
+    "fetched_at": "2026-06-17T19:13:24.384Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/nextgen-careers-information",
     "local_path": "data/info-details/nextgen-careers-information.md",
-    "sha256": "1b204267e404f874e2b7a6328e72249d268173ae24b9d1da6bfd8e18da0ada0b",
-    "fetched_at": "2026-06-17T18:58:27.192Z",
+    "sha256": "08605ebb94a08254528f040fa844bfa31b1d90349b0f73f289b379213783cebf",
+    "fetched_at": "2026-06-17T19:13:24.384Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/home-care",
     "local_path": null,
     "sha256": null,
-    "fetched_at": "2026-06-17T18:58:27.192Z",
+    "fetched_at": "2026-06-17T19:13:24.384Z",
     "status": "skipped",
     "reason": "no bucket match"
   },
@@ -425,113 +502,127 @@
     "url": "https://www.mass.gov/how-to/how-to-apply-for-benefits-counseling",
     "local_path": null,
     "sha256": null,
-    "fetched_at": "2026-06-17T18:58:27.192Z",
+    "fetched_at": "2026-06-17T19:13:24.384Z",
     "status": "skipped",
     "reason": "no bucket match"
   },
   {
     "url": "https://www.mass.gov/info-details/moving-forward-program",
     "local_path": "data/info-details/moving-forward-program.md",
-    "sha256": "0038006de1eb3c79a63dfd8a5dde1c94e1f10c6cd3d5aadd144b71e9b724f3f9",
-    "fetched_at": "2026-06-17T18:58:27.193Z",
+    "sha256": "49ffdd2c8345f0e842fe48df4d162364188bb6366adf8519df9fe77d1997196d",
+    "fetched_at": "2026-06-17T19:13:24.384Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/brain-injury-screening-resource-hub",
     "local_path": "data/info-details/brain-injury-screening-resource-hub.md",
-    "sha256": "0c5785cfddda7dd10b83018aace7c5eb43dc079a431eee30e499bc2812b6c741",
-    "fetched_at": "2026-06-17T18:58:27.193Z",
+    "sha256": "0835b5942aff0ebe83af9c447cafe8e50a0b09b1530dbc516cd16c7edda2cc5a",
+    "fetched_at": "2026-06-17T19:13:24.385Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/doc/massability-2024-annual-report/download",
     "local_path": "data/pdfs/massability-2024-annual-report.md",
-    "sha256": "23382a738c49ba234ecc243c3081ff02a1c46a381a5f31f1e8aeabe15261aef8",
-    "fetched_at": "2026-06-17T18:58:27.193Z",
+    "sha256": "598895254f5c27438ff2a4df474877b8f704d08b73312f8ed42daff7c6872a54",
+    "fetched_at": "2026-06-17T19:13:24.385Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/doc/massability-programs-and-services-brochure/download",
     "local_path": "data/pdfs/massability-programs-and-services-brochure.md",
-    "sha256": "9b94e0ca48a3d6ed2f50f109172da862424a36a1944ec8893aaaf0abb97c4a90",
-    "fetched_at": "2026-06-17T18:58:27.194Z",
+    "sha256": "172eb33698eb62cfd190eb35f5d8333209eea93add931b9486761c1862e311ba",
+    "fetched_at": "2026-06-17T19:13:24.386Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/doc/massability-brain-injury-strategic-plan/download",
     "local_path": "data/pdfs/massability-brain-injury-strategic-plan.md",
-    "sha256": "484d2c7af645cfc358ec809884c394ebaf84b42bc9f955808367bfd2715a2a63",
-    "fetched_at": "2026-06-17T18:58:27.194Z",
+    "sha256": "343d53e3beea639236d2835c5d25503ef96cded4f901e7a13b7bda7b218d5ad0",
+    "fetched_at": "2026-06-17T19:13:24.386Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/doc/massabilitys-brain-injury-implementation-plan/download",
     "local_path": "data/pdfs/massabilitys-brain-injury-implementation-plan.md",
-    "sha256": "6c0ce67cd52d83bbb1997ff92b21368942d81d5bbeaea45df4ff1b248c607a67",
-    "fetched_at": "2026-06-17T18:58:27.195Z",
+    "sha256": "e66aa012888f321029e05160b8586f17a7c37650afb7a681e9d741014def7472",
+    "fetched_at": "2026-06-17T19:13:24.387Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-disability-benefits-and-rights-services",
     "local_path": "data/info-details/massability-disability-benefits-and-rights-services.md",
-    "sha256": "acb20a7a652114f8eb71f69a1add2afffa4b77a71d43181162bf5b840ca7c292",
-    "fetched_at": "2026-06-17T18:58:27.195Z",
+    "sha256": "0f86f9c8e82c64828952161952624fd9eaeb0565dab2853dad64faa2bbb893b1",
+    "fetched_at": "2026-06-17T19:13:24.387Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/who-is-massability",
     "local_path": "data/info-details/who-is-massability.md",
-    "sha256": "df5dfd75501767c765fd52b57828dc291e38c4c7abf3c036dbcbb38e25025af6",
-    "fetched_at": "2026-06-17T18:58:27.195Z",
+    "sha256": "ebff78181b5fdd14a2534c1a9efbf9bfbd1669583a8d28340e9397c0c71cc4cf",
+    "fetched_at": "2026-06-17T19:13:24.388Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-careers-and-training-services",
     "local_path": "data/info-details/massability-careers-and-training-services.md",
-    "sha256": "4b36c3bf8a3b7315c45f3b1bf41a88869dd5f09469069f3576994da02b6e89da",
-    "fetched_at": "2026-06-17T18:58:27.196Z",
+    "sha256": "638ced5cb91df3bd522f2a45756c58d1ee60701a4ecd7f38f53c3dc811bbdcf1",
+    "fetched_at": "2026-06-17T19:13:24.388Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/news/governor-healey-files-legislation-to-change-massachusetts-rehabilitation-commissions-name-to-massability?_gl=1%2A1sa0tk4%2A_ga%2ANTc1NzgwNjQ2LjE2ODU1OTE1ODg.%2A_ga_MCLPEGW7WM%2AMTcyNjExNTc1MC4xNjkuMC4xNzI2MTE1NzUwLjAuMC4w",
+    "local_path": "data/press-releases/governor-healey-files-legislation-to-change-massachusetts-rehabilitation-commiss.md",
+    "sha256": "cc4457c1b8853a7e43b0c656db5c3b87071d9c601aed9bae9d54682b9fff16ea",
+    "fetched_at": "2026-06-17T19:13:24.389Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-brockton",
     "local_path": "data/locations/massability-brockton.md",
-    "sha256": "6cbcc99090c3dd85c35f2cb48082d00334b84da6845872a0351eb696f6508ebe",
-    "fetched_at": "2026-06-17T18:58:27.196Z",
+    "sha256": "2646e65495b27e1b819dabff519d1cea1fc904389679ea11ebaa24c4718242e4",
+    "fetched_at": "2026-06-17T19:13:24.389Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/orgs/massability/locations?page=0",
     "local_path": "data/orgs-massability/locations-p0.md",
-    "sha256": "ac97b295e0fcdf530896603e7211bcdb26f3347c4279429b3faa074a11c4e44d",
-    "fetched_at": "2026-06-17T18:58:27.197Z",
+    "sha256": "9721a1d6fd49af31dddf0fb27e143a5f4ccef78407e407043cc947ac323a0805",
+    "fetched_at": "2026-06-17T19:13:24.390Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/info-details/massability-careers-and-business-services",
+    "local_path": "data/info-details/massability-careers-and-business-services.md",
+    "sha256": "10ddfb4a1b4a98378d25594567f75c75d4d2b1cff037e119ce25dd8fca41ae2c",
+    "fetched_at": "2026-06-17T19:13:24.391Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/locations/massability-worcester",
     "local_path": "data/locations/massability-worcester.md",
-    "sha256": "9f007447bb0512b2fb98a7d9ab7c4a0f8741ed3f722262abe720aa143754393e",
-    "fetched_at": "2026-06-17T18:58:27.198Z",
+    "sha256": "8f74dbfdc948e27c3bd07775573004a9d64a050b324b5cb43608c67bbc8d6b46",
+    "fetched_at": "2026-06-17T19:13:24.391Z",
+    "status": "ok"
+  },
+  {
+    "url": "https://www.mass.gov/info-details/follow-massability-on-social-media",
+    "local_path": "data/info-details/follow-massability-on-social-media.md",
+    "sha256": "79003f4c6a8983217d30567b9630ffd85ef0ff280b5614a3134f3cd235287d10",
+    "fetched_at": "2026-06-17T19:13:24.392Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-internship-experience",
     "local_path": "data/info-details/massability-internship-experience.md",
-    "sha256": "f558246e4162ce20f9ccca32b8802390f7085cc45e1bf5870acb35fbb59e5a9b",
-    "fetched_at": "2026-06-17T18:58:27.198Z",
+    "sha256": "2a587d2bc6d057ffe1611a405972d921259c7b3561ca0166299e8be86379a463",
+    "fetched_at": "2026-06-17T19:13:24.392Z",
     "status": "ok"
   },
   {
     "url": "https://www.mass.gov/info-details/massability-partners",
     "local_path": "data/info-details/massability-partners.md",
-    "sha256": "b3bb43b54bca37069c9ef1511e0596e334c0525f4fe10a2fa65c834f27f336a5",
-    "fetched_at": "2026-06-17T18:58:27.198Z",
-    "status": "ok"
-  },
-  {
-    "url": "https://www.mass.gov/info-details/workforce-university-massability",
-    "local_path": "data/info-details/workforce-university-massability.md",
-    "sha256": "fb90267cb9aa22c1771958e5cad49ef229e67a0ae78f47ee14a9801e27c4dabf",
-    "fetched_at": "2026-06-17T18:58:27.199Z",
+    "sha256": "2badaf9ba86ae9e696985408e0dfa80a561c606c60f2fcbec3fdf715c85a269a",
+    "fetched_at": "2026-06-17T19:13:24.392Z",
     "status": "ok"
   },
   {
@@ -553,20 +644,6 @@
     "local_path": "data/info-details/disability-resources-for-employers.md",
     "sha256": "b72967c88be6c3c594e817c3575785331e6a075d6146aeeed725fc19882ebed7",
     "fetched_at": "2026-06-15T18:04:41.480Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/info-details/follow-massability-on-social-media",
-    "local_path": "data/info-details/follow-massability-on-social-media.md",
-    "sha256": "397a1ee9dd5a42e3dce5a2b0661887aa97427a8acd6b114991f7fabfdf88955c",
-    "fetched_at": "2026-06-15T18:04:41.465Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/info-details/massability-careers-and-business-services",
-    "local_path": "data/info-details/massability-careers-and-business-services.md",
-    "sha256": "a44293f67595f5487b875ac4dfe972b47ecefa564ec9091e75d732439eacde9b",
-    "fetched_at": "2026-06-17T18:46:46.204Z",
     "status": "retained"
   },
   {
@@ -605,73 +682,10 @@
     "status": "retained"
   },
   {
-    "url": "https://www.mass.gov/locations/massability-braintree",
-    "local_path": "data/locations/massability-braintree.md",
-    "sha256": "af8ed0edaae99dcbb11630e7d82304f47d0f62b0041d171624790ecea058a717",
-    "fetched_at": "2026-06-17T18:46:46.178Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/locations/massability-framingham",
-    "local_path": "data/locations/massability-framingham.md",
-    "sha256": "d358a253308184cfee36c0f194a940c4ce8277eb9ad7668ef5d07680df2e5980",
-    "fetched_at": "2026-06-15T18:04:41.461Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/locations/massability-hyannis",
-    "local_path": "data/locations/massability-hyannis.md",
-    "sha256": "0c64a852a9af7bc9748693f28d2d0521926028e6a2f5a50b4353d7753617bc70",
-    "fetched_at": "2026-06-17T18:46:46.174Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/locations/massability-new-bedford",
-    "local_path": "data/locations/massability-new-bedford.md",
-    "sha256": "d7d4fa43499723048f5fdf0c951c69b96c1d85d5082219eb1003e46d0d4acd97",
-    "fetched_at": "2026-06-15T18:04:41.461Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/locations/massability-north-adams",
-    "local_path": "data/locations/massability-north-adams.md",
-    "sha256": "2b3cc897033f4f1140b97729efa1be853251d4f1c2890738ea4e61f3bf2739ed",
-    "fetched_at": "2026-06-17T18:46:46.176Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/locations/massability-pittsfield",
-    "local_path": "data/locations/massability-pittsfield.md",
-    "sha256": "fdd2cd3a2107456ed7bb6c15d57a62fc2f970a7e7780019de228cf7c93d8042d",
-    "fetched_at": "2026-06-15T18:04:41.463Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/locations/massability-plymouth",
-    "local_path": "data/locations/massability-plymouth.md",
-    "sha256": "62bbeefd8ee221e15753724dac10c49d805c040ac323cfa211772e44724d7d41",
-    "fetched_at": "2026-06-17T18:46:46.175Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/locations/massability-southbridge",
-    "local_path": "data/locations/massability-southbridge.md",
-    "sha256": "078fc495db856bf64437ca14a0d3e649c18cffe54d725b8c6abf97a011149236",
-    "fetched_at": "2026-06-17T18:46:46.180Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/massability-brain-injury-services",
-    "local_path": "data/orgs-massability/massability-brain-injury-services.md",
-    "sha256": "ad7d4d25d89c829c7f6b3e924801961f66b6e775b27f7b3189a58f86f58a00e8",
-    "fetched_at": "2026-06-17T18:46:46.180Z",
-    "status": "retained"
-  },
-  {
-    "url": "https://www.mass.gov/news/meet-massabilitys-disability-inclusion-leaders",
-    "local_path": "data/press-releases/meet-massabilitys-disability-inclusion-leaders.md",
-    "sha256": "2b39f5253edc5fe56b19c631c96b6d9f882690255e9adc2eb032ae1896bde764",
-    "fetched_at": "2026-06-17T18:46:46.174Z",
+    "url": "https://www.mass.gov/locations/massability-fall-river",
+    "local_path": "data/locations/massability-fall-river.md",
+    "sha256": "e0ef5be1a773f4b3cec00b622827e80bf454856fb043a24758c2a2372b187941",
+    "fetched_at": "2026-06-17T18:58:27.167Z",
     "status": "retained"
   }
 ]

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/why-you-should-join-massability
 title: Why You Should Join MassAbility | Mass.gov
-fetched_at: 2026-06-17T18:58:27.175Z
+fetched_at: 2026-06-17T19:13:24.364Z
 ---
 
 # Why You Should Join MassAbility

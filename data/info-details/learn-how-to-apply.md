@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/learn-how-to-apply
 title: Learn How to Apply | Mass.gov
-fetched_at: 2026-06-17T18:58:27.190Z
+fetched_at: 2026-06-17T19:13:24.381Z
 ---
 
 # Learn How to Apply

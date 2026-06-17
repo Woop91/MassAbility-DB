@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/my-internship-at-massability-0
 title: My Internship at MassAbility | Mass.gov
-fetched_at: 2026-06-17T18:58:27.188Z
+fetched_at: 2026-06-17T19:13:24.378Z
 ---
 
 # My Internship at MassAbility

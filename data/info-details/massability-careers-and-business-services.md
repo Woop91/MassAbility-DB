@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-careers-and-business-services
 title: MassAbility Career Services and Business Relations | Mass.gov
-fetched_at: 2026-06-17T18:46:46.204Z
+fetched_at: 2026-06-17T19:13:24.390Z
 ---
 
 # MassAbility Career Services and Business Relations
