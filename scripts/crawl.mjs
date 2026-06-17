@@ -37,7 +37,12 @@ const CURATED_SEEDS = [
   "https://www.mass.gov/doc/massability-brain-injury-strategic-plan/download",
   "https://www.mass.gov/doc/massabilitys-brain-injury-implementation-plan/download",
   "https://www.mass.gov/info-details/massability-career-services",
+  "https://www.mass.gov/info-details/massability-career-services-and-business-relations",
   "https://www.mass.gov/info-details/massability-disability-benefits-and-rights-services",
+  "https://www.mass.gov/locations/massability-salem",
+  "https://www.mass.gov/locations/massability-braintree",
+  "https://www.mass.gov/locations/massability-greenfield",
+  "https://www.mass.gov/locations/massability-hyannis",
 ];
 
 // Canonical key for de-duping URLs (drop trailing slash + fragment, keep ?page).
@@ -177,24 +182,46 @@ async function scrapeUrls(urls, seen) {
   return todo.length;
 }
 
-// Harvest every in-scope mass.gov link found in already-scraped page bodies.
+// Harvest every in-scope mass.gov link from (a) pages scraped this run and
+// (b) the already-committed corpus under data/. Including the committed corpus
+// matters because index pages that this run did NOT re-fetch (status "retained")
+// still list offices/services we must follow — without this, links only present
+// on retained pages get missed.
 async function harvestLinks() {
-  const files = (await readdir(PAGES_DIR)).filter((f) => f.endsWith(".json"));
   const re = /https?:\/\/(?:www\.)?mass\.gov\/[^\s)"'\]<>]+/gi;
   const links = new Set();
-  for (const f of files) {
-    let d;
-    try {
-      d = JSON.parse(await readFile(join(PAGES_DIR, f), "utf8"));
-    } catch {
-      continue;
-    }
-    const md = d.markdown || d.data?.markdown || "";
-    for (const m of md.matchAll(re)) {
+  const addFrom = (text) => {
+    for (const m of text.matchAll(re)) {
       const raw = m[0].replace(/[.,]+$/, "");
       if (inScopeHarvested(raw)) links.add(raw);
     }
+  };
+
+  // (a) this run's freshly-scraped pages
+  for (const f of (await readdir(PAGES_DIR)).filter((x) => x.endsWith(".json"))) {
+    try {
+      const d = JSON.parse(await readFile(join(PAGES_DIR, f), "utf8"));
+      addFrom(d.markdown || d.data?.markdown || "");
+    } catch {
+      /* skip unreadable page */
+    }
   }
+
+  // (b) the committed corpus (retained index pages, etc.)
+  const DATA_DIR = join(REPO_ROOT, "data");
+  try {
+    const md = (await readdir(DATA_DIR, { recursive: true })).filter((x) => x.endsWith(".md"));
+    for (const rel of md) {
+      try {
+        addFrom(await readFile(join(DATA_DIR, rel), "utf8"));
+      } catch {
+        /* skip unreadable file */
+      }
+    }
+  } catch {
+    /* data/ may not exist on a first run */
+  }
+
   return [...links];
 }
 
