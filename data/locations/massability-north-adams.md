@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-north-adams
 title: MassAbility North Adams | Mass.gov
-fetched_at: 2026-06-15T18:04:41.460Z
+fetched_at: 2026-06-17T18:46:46.176Z
 ---
 
 # MassAbility North Adams

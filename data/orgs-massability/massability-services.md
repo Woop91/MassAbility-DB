@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/massability-services
 title: MassAbility Services | Mass.gov
-fetched_at: 2026-06-15T18:04:41.454Z
+fetched_at: 2026-06-17T18:46:46.169Z
 ---
 
 # MassAbility Services
@@ -69,11 +69,3 @@ Thank you for your website feedback! We will use this information to improve thi
 If you would like to continue helping us improve Mass.gov, [join our user panel](https://www.mass.gov/user-panel?utm_source=survey) to test new features for the site.
 
 [Feedback](https://www.mass.gov/massability-services#feedback)
-
-![](https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg)
-
-Original text
-
-Rate this translation
-
-Your feedback will be used to help improve Google Translate

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/administration-for-community-living-acl-grant-at-massability
 title: Administration for Community Living (ACL) Grant at MassAbility | Mass.gov
-fetched_at: 2026-06-15T18:04:41.476Z
+fetched_at: 2026-06-17T18:46:46.194Z
 ---
 
 # Administration for Community Living (ACL) Grant at MassAbility
@@ -14,7 +14,7 @@ MassAbility has received grant funds from the [Administration of Community Livin
 
 ## Table of Contents
 
-show more
+Show More  Table of contents
 
 top
 
@@ -99,11 +99,3 @@ Thank you for your website feedback! We will use this information to improve thi
 If you would like to continue helping us improve Mass.gov, [join our user panel](https://www.mass.gov/user-panel?utm_source=survey) to test new features for the site.
 
 [Feedback](https://www.mass.gov/info-details/administration-for-community-living-acl-grant-at-massability#feedback)
-
-![](https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg)
-
-Original text
-
-Rate this translation
-
-Your feedback will be used to help improve Google Translate

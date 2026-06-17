@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-taunton
 title: MassAbility Taunton | Mass.gov
-fetched_at: 2026-06-15T18:04:41.459Z
+fetched_at: 2026-06-17T18:46:46.175Z
 ---
 
 # MassAbility Taunton

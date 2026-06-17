@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/news/meet-massabilitys-disability-inclusion-leaders
 title: Meet MassAbility's Disability Inclusion Leaders | Mass.gov
-fetched_at: 2026-06-15T18:04:41.459Z
+fetched_at: 2026-06-17T18:46:46.174Z
 ---
 
 # News   Meet MassAbility's Disability Inclusion Leaders

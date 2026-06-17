@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/lists/massability-annual-and-legislative-reports
 title: MassAbility Annual and Legislative Reports | Mass.gov
-fetched_at: 2026-06-15T18:04:41.473Z
+fetched_at: 2026-06-17T18:46:46.189Z
 ---
 
 # MassAbility Annual and Legislative Reports

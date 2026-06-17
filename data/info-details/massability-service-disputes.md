@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-service-disputes
 title: MassAbility Service Disputes | Mass.gov
-fetched_at: 2026-06-15T18:04:41.461Z
+fetched_at: 2026-06-17T18:46:46.177Z
 ---
 
 # MassAbility Service Disputes
@@ -12,7 +12,7 @@ If you ever experience difficulties or challenges with one of our services, the 
 
 ## Table of Contents
 
-show more
+Show More  Table of contents
 
 top
 

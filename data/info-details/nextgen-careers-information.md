@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/nextgen-careers-information
 title: NextGen Careers Information | Mass.gov
-fetched_at: 2026-06-15T18:04:41.479Z
+fetched_at: 2026-06-17T18:46:46.198Z
 ---
 
 # NextGen Careers Information
@@ -22,17 +22,7 @@ You skipped the table of contents section.
 
 ## Video: NextGen Spotlights
 
-[Skip this video NextGen Spotlights.](https://www.mass.gov/info-details/nextgen-careers-information#video-7349)
-
-NextGen Spotlights - YouTube
-
-Tap to unmute
-
-[NextGen Spotlights](https://www.youtube.com/watch?v=nTQXaqNiGzo) [MassAbility](https://www.youtube.com/channel/UC_dcg2mD50BOHuF_Wr2ZCzA)
-
-MassAbility249 subscribers
-
-[Watch on](https://www.youtube.com/watch?v=nTQXaqNiGzo)
+[Skip this video NextGen Spotlights.](https://www.mass.gov/info-details/nextgen-careers-information#video-6940)
 
 You skipped the video, NextGen Spotlights.
 
@@ -113,3 +103,11 @@ Thank you for your website feedback! We will use this information to improve thi
 If you would like to continue helping us improve Mass.gov, [join our user panel](https://www.mass.gov/user-panel?utm_source=survey) to test new features for the site.
 
 [Feedback](https://www.mass.gov/info-details/nextgen-careers-information#feedback)
+
+![](https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg)
+
+Original text
+
+Rate this translation
+
+Your feedback will be used to help improve Google Translate

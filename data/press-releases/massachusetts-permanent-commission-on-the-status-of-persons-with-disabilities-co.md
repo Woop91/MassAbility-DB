@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/news/massachusetts-permanent-commission-on-the-status-of-persons-with-disabilities-continues-meeting-the-moment-series-in-lowell-in-partnership-with-massability
 title: Massachusetts Permanent Commission on the Status of Persons with Disabilities Continues “Meeting the Moment” Series in Lowell in Partnership with MassAbility | Mass.gov
-fetched_at: 2026-06-15T18:04:41.476Z
+fetched_at: 2026-06-17T18:46:46.195Z
 ---
 
 # Press Release   Massachusetts Permanent Commission on the Status of Persons with Disabilities Continues “Meeting the Moment” Series in Lowell in Partnership with MassAbility

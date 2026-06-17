@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massabilitys-internship-experience
 title: MassAbility's Internship Experience | Mass.gov
-fetched_at: 2026-06-15T18:04:41.474Z
+fetched_at: 2026-06-17T18:46:46.192Z
 ---
 
 # MassAbility's Internship Experience

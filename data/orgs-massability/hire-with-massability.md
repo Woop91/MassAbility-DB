@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/hire-with-massability
 title: Hire With MassAbility | Mass.gov
-fetched_at: 2026-06-15T18:04:41.474Z
+fetched_at: 2026-06-17T18:46:46.191Z
 ---
 
 ![Massachusetts State Seal](https://www.mass.gov/libraries/mayflower-artifacts/assets/images/logo/stateseal.png)
@@ -57,17 +57,9 @@ MassAbility supports employers. We stay with you after hiring to ensure you and 
 
 ### Video: MassAbility Video
 
-[Skip this video MassAbility Video.](https://www.mass.gov/hire-with-massability#video-2608)
+[Skip this video MassAbility Video.](https://www.mass.gov/hire-with-massability#video-8562)
 
-MassAbility Employer Partners - YouTube
-
-Tap to unmute
-
-[MassAbility Employer Partners](https://www.youtube.com/watch?v=iIlFFrGH_Us) [MassAbility](https://www.youtube.com/channel/UC_dcg2mD50BOHuF_Wr2ZCzA)
-
-MassAbility249 subscribers
-
-[Watch on](https://www.youtube.com/watch?v=iIlFFrGH_Us)
+YouTube
 
 You skipped the video, MassAbility Video.
 

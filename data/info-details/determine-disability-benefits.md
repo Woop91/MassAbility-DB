@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/determine-disability-benefits
 title: Determine Disability Benefits | Mass.gov
-fetched_at: 2026-06-15T18:04:41.479Z
+fetched_at: 2026-06-17T18:46:46.198Z
 ---
 
 # Determine Disability Benefits

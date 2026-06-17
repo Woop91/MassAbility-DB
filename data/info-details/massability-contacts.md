@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-contacts
 title: MassAbility Contacts | Mass.gov
-fetched_at: 2026-06-15T18:04:41.456Z
+fetched_at: 2026-06-17T18:46:46.172Z
 ---
 
 # MassAbility Contacts

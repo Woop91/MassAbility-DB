@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-springfield
 title: MassAbility Springfield | Mass.gov
-fetched_at: 2026-06-15T18:04:41.455Z
+fetched_at: 2026-06-17T18:46:46.170Z
 ---
 
 # MassAbility Springfield

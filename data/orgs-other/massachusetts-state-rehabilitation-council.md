@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/orgs/massachusetts-state-rehabilitation-council
 title: Massachusetts State Rehabilitation Council | Mass.gov
-fetched_at: 2026-06-15T18:04:41.477Z
+fetched_at: 2026-06-17T18:46:46.197Z
 ---
 
 # Massachusetts State Rehabilitation Council   (MA SRC)
@@ -94,10 +94,30 @@ For more than a decade, Reverend Dr. Dawn Clark has used her voice as a life-lon
 
 ## Upcoming Meetings
 
-No upcoming events scheduled
+- Jun18
 
 
-[See past events](https://www.mass.gov/orgs/massachusetts-state-rehabilitation-council/events/past)
+
+
+
+
+
+### [SRC Quarterly June 18, 2026 Meeting](https://www.mass.gov/event/src-quarterly-june-18-2026-meeting-06-18-2026)
+
+
+
+
+Thursday, June 18, 2026
+
+
+
+
+
+5 p.m. - 7 p.m.
+
+
+
+[See all events  for the Massachusetts State Rehabilitation Council](https://www.mass.gov/orgs/massachusetts-state-rehabilitation-council/events)
 
 ## Massachusetts State Rehabilitation Council information
 
@@ -146,11 +166,3 @@ Thank you for your website feedback! We will use this information to improve thi
 If you would like to continue helping us improve Mass.gov, [join our user panel](https://www.mass.gov/user-panel?utm_source=survey) to test new features for the site.
 
 [Feedback](https://www.mass.gov/orgs/massachusetts-state-rehabilitation-council#feedback)
-
-![](https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg)
-
-Original text
-
-Rate this translation
-
-Your feedback will be used to help improve Google Translate
