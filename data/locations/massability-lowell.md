@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-lowell
 title: MassAbility Lowell | Mass.gov
-fetched_at: 2026-06-15T18:04:41.458Z
+fetched_at: 2026-06-17T18:58:27.167Z
 ---
 
 # MassAbility Lowell

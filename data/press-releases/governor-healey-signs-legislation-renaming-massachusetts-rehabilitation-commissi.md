@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/news/governor-healey-signs-legislation-renaming-massachusetts-rehabilitation-commission-to-massability
 title: Governor Healey Signs Legislation Renaming Massachusetts Rehabilitation Commission to ‘MassAbility’ | Mass.gov
-fetched_at: 2026-06-17T18:46:46.171Z
+fetched_at: 2026-06-17T18:58:27.164Z
 ---
 
 # Press Release   Governor Healey Signs Legislation Renaming Massachusetts Rehabilitation Commission to ‘MassAbility’

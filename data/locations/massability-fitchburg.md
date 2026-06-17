@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-fitchburg
 title: MassAbility Fitchburg | Mass.gov
-fetched_at: 2026-06-17T18:46:46.179Z
+fetched_at: 2026-06-17T18:58:27.172Z
 ---
 
 # MassAbility Fitchburg

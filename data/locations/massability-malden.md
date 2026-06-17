@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-malden
 title: MassAbility Malden | Mass.gov
-fetched_at: 2026-06-17T18:46:46.178Z
+fetched_at: 2026-06-17T18:58:27.171Z
 ---
 
 # MassAbility Malden

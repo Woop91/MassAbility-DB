@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/orgs/massability/locations?page=0
 title: Locations | Mass.gov
-fetched_at: 2026-06-17T18:46:46.203Z
+fetched_at: 2026-06-17T18:58:27.196Z
 ---
 
 # MassAbility Locations

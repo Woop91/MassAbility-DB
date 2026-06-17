@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-disability-benefits-and-rights-services
 title: MassAbility Additional Supports for Disability Determination Services | Mass.gov
-fetched_at: 2026-06-17T18:46:46.201Z
+fetched_at: 2026-06-17T18:58:27.195Z
 ---
 
 # MassAbility Additional Supports for Disability Determination Services

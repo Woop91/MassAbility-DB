@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-worcester
 title: MassAbility Worcester | Mass.gov
-fetched_at: 2026-06-17T18:46:46.205Z
+fetched_at: 2026-06-17T18:58:27.197Z
 ---
 
 # MassAbility Worcester

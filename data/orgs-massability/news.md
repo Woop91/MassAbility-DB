@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/orgs/massability/news
 title: News and Announcements | Mass.gov
-fetched_at: 2026-06-17T18:46:46.171Z
+fetched_at: 2026-06-17T18:58:27.163Z
 ---
 
 # News and Announcements
@@ -170,11 +170,3 @@ MassAbility
 
 
 Beverly Brewington recognizes that her career journey has not been the same as others.
-
-![](https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg)
-
-Original text
-
-Rate this translation
-
-Your feedback will be used to help improve Google Translate

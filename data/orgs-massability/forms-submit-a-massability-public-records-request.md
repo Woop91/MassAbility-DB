@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/forms/submit-a-massability-public-records-request
 title: Submit a MassAbility Public Records Request | Mass.gov
-fetched_at: 2026-06-17T18:46:46.195Z
+fetched_at: 2026-06-17T18:58:27.188Z
 ---
 
 # Submit a MassAbility Public Records Request

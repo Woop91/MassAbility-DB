@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/brain-injury-screening-resource-hub
 title: Brain Injury Screening Resource Hub | Mass.gov
-fetched_at: 2026-06-17T18:46:46.199Z
+fetched_at: 2026-06-17T18:58:27.193Z
 ---
 
 # Brain Injury Screening Resource Hub
@@ -45,7 +45,15 @@ If you're a provider with a code, [please click here to take the OBISSS.](https:
 
 [Skip this video Online Brain Injury Screening and Support System Training Video (voiceover).](https://www.mass.gov/info-details/brain-injury-screening-resource-hub#video-7399)
 
-YouTube
+MA Online Brain Injury Screening and Support System (OBISSS) Training Video (voiceover) - YouTube
+
+Tap to unmute
+
+[MA Online Brain Injury Screening and Support System (OBISSS) Training Video (voiceover)](https://www.youtube.com/watch?v=Q6gTNfWcF5Y) [MassAbility](https://www.youtube.com/channel/UC_dcg2mD50BOHuF_Wr2ZCzA)
+
+MassAbility249 subscribers
+
+[Watch on](https://www.youtube.com/watch?v=Q6gTNfWcF5Y)
 
 You skipped the video, Online Brain Injury Screening and Support System Training Video (voiceover).
 

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/orgs/massability/events/past
 title: Events | Mass.gov
-fetched_at: 2026-06-17T18:46:46.195Z
+fetched_at: 2026-06-17T18:58:27.188Z
 ---
 
 # Past events for MassAbility

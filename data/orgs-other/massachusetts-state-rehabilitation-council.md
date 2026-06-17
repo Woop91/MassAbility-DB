@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/orgs/massachusetts-state-rehabilitation-council
 title: Massachusetts State Rehabilitation Council | Mass.gov
-fetched_at: 2026-06-17T18:46:46.197Z
+fetched_at: 2026-06-17T18:58:27.190Z
 ---
 
 # Massachusetts State Rehabilitation Council   (MA SRC)

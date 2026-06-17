@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/locations/massability-fall-river
 title: MassAbility Fall River | Mass.gov
-fetched_at: 2026-06-17T18:46:46.173Z
+fetched_at: 2026-06-17T18:58:27.167Z
 ---
 
 # MassAbility Fall River

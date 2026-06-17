@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/nextgen-careers-information
 title: NextGen Careers Information | Mass.gov
-fetched_at: 2026-06-17T18:46:46.198Z
+fetched_at: 2026-06-17T18:58:27.192Z
 ---
 
 # NextGen Careers Information

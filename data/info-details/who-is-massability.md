@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/who-is-massability
 title: Who is MassAbility? | Mass.gov
-fetched_at: 2026-06-17T18:46:46.201Z
+fetched_at: 2026-06-17T18:58:27.195Z
 ---
 
 # Who is MassAbility?

@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/workforce-university-massability
 title: Workforce University - MassAbility | Mass.gov
-fetched_at: 2026-05-18T00:56:20.671Z
+fetched_at: 2026-06-17T18:58:27.198Z
 ---
 
 # Workforce University - MassAbility
@@ -22,7 +22,7 @@ You skipped the table of contents section.
 
 ### Video: MassAbility Overview
 
-[Skip this video MassAbility Overview.](https://www.mass.gov/info-details/workforce-university-massability#video-4116)
+[Skip this video MassAbility Overview.](https://www.mass.gov/info-details/workforce-university-massability#video-59)
 
 MassAbility WIOA Video Feb 2025 - YouTube
 
@@ -30,7 +30,7 @@ Tap to unmute
 
 [MassAbility WIOA Video Feb 2025](https://www.youtube.com/watch?v=saHHcCBkQpc) [MassAbility](https://www.youtube.com/channel/UC_dcg2mD50BOHuF_Wr2ZCzA)
 
-MassAbility248 subscribers
+MassAbility249 subscribers
 
 [Watch on](https://www.youtube.com/watch?v=saHHcCBkQpc)
 

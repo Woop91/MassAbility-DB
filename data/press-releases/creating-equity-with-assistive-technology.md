@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/news/creating-equity-with-assistive-technology
 title: Creating Equity with Assistive Technology
-fetched_at: 2026-06-17T18:46:46.196Z
+fetched_at: 2026-06-17T18:58:27.190Z
 ---
 
 # News   Creating Equity with Assistive Technology
@@ -85,11 +85,3 @@ Thank you for your website feedback! We will use this information to improve thi
 If you would like to continue helping us improve Mass.gov, [join our user panel](https://www.mass.gov/user-panel?utm_source=survey) to test new features for the site.
 
 [Feedback](https://www.mass.gov/news/creating-equity-with-assistive-technology#feedback)
-
-![](https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg)
-
-Original text
-
-Rate this translation
-
-Your feedback will be used to help improve Google Translate

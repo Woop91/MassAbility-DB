@@ -1,7 +1,7 @@
 ---
 source_url: https://www.mass.gov/info-details/massability-acronym-list
 title: MassAbility Acronym List | Mass.gov
-fetched_at: 2026-06-17T18:46:46.192Z
+fetched_at: 2026-06-17T18:58:27.186Z
 ---
 
 # MassAbility Acronym List
