@@ -1,0 +1,22 @@
+{
+  "$schema": "https://github.com/Woop91/509dds-data/blob/main/schemas/dataset.meta.schema.json",
+  "id": "annual-reports/src-fy22",
+  "title": "MRC Statewide Rehabilitation Council (SRC) Annual Report FY2022",
+  "description": "Annual report of the Massachusetts Rehabilitation Commission Statewide Rehabilitation Council (SRC) for fiscal year 2022 (July 1, 2021 – June 30, 2022). The SRC is the federally mandated advisory body to MRC's Vocational Rehabilitation (VR) division; this report reviews VR program outcomes and presents the council's committee reports and recommendations. Prose report converted to Markdown.",
+  "path": "data/annual-reports/src-fy22.md",
+  "format": "md",
+  "unit_of_observation": "document",
+  "temporal_coverage": { "start": "2021-07-01", "end": "2022-06-30" },
+  "geographic_coverage": "Massachusetts",
+  "source": {
+    "publisher": "MRC Statewide Rehabilitation Council (SRC)",
+    "title": "MRC Statewide Rehabilitation Council Annual Report 2022",
+    "url": "https://www.mass.gov/mrc"
+  },
+  "confidence_tier": "Authoritative",
+  "update_cadence": "Annual",
+  "license": "Public domain (Massachusetts state government publication)",
+  "related": ["annual-reports/src-fy23"],
+  "tags": ["annual-report", "fy2022", "massachusetts", "mrc", "src", "statewide-rehabilitation-council", "vocational-rehabilitation"],
+  "relocated_from": "509dds-data/data/ma-annual-reports/src-fy22.md (relocated 2026-06-17: SRC advises the Vocational Rehabilitation division only — out of scope for the DDS-Det chapter)"
+}
