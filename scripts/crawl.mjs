@@ -9,7 +9,7 @@
 // relevance-scoped URLs and scrape each individually so metadata
 // (sourceURL, title) is preserved per page.
 
-import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir, rm } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
@@ -23,6 +23,48 @@ const CONCURRENCY = parseInt(process.env.CONCURRENCY || "5", 10);
 const MAP_LIMIT = parseInt(process.env.MAP_LIMIT || "500", 10);
 const SEARCH_QUERY = process.env.SEARCH_QUERY || "massability";
 const SEED_URL = process.env.SEED_URL || "https://www.mass.gov";
+// Link-expansion passes: after scraping, harvest in-scope mass.gov links from the
+// scraped pages and scrape any not yet seen. /map discovery is non-exhaustive, so
+// without this, pages only reachable via links inside index pages get missed.
+const MAX_EXPAND = parseInt(process.env.MAX_EXPAND || "2", 10);
+
+// Must-have pages that /map has historically failed to surface. Always scraped so
+// coverage never silently regresses on these. Link-expansion catches the rest.
+const CURATED_SEEDS = [
+  "https://www.mass.gov/doc/massability-2025-annual-report/download",
+  "https://www.mass.gov/doc/massability-2024-annual-report/download",
+  "https://www.mass.gov/doc/massability-programs-and-services-brochure/download",
+  "https://www.mass.gov/doc/massability-brain-injury-strategic-plan/download",
+  "https://www.mass.gov/doc/massabilitys-brain-injury-implementation-plan/download",
+  "https://www.mass.gov/info-details/massability-career-services",
+  "https://www.mass.gov/info-details/massability-disability-benefits-and-rights-services",
+];
+
+// Canonical key for de-duping URLs (drop trailing slash + fragment, keep ?page).
+function normUrl(u) {
+  try {
+    const x = new URL(u);
+    const page = x.searchParams.get("page");
+    return x.origin + x.pathname.replace(/\/+$/, "") + (page !== null ? `?page=${page}` : "");
+  } catch {
+    return null;
+  }
+}
+
+// Is a harvested link a MassAbility content page worth scraping?
+function inScopeHarvested(url) {
+  let p;
+  try {
+    p = new URL(url).pathname;
+  } catch {
+    return false;
+  }
+  if (!/massability/i.test(p)) return false;        // must be MassAbility-related
+  if (/^\/massability\/?$/i.test(p)) return false;  // bare vanity URL → redirects to /orgs/massability
+  if (/^\/files\//i.test(p)) return false;          // asset / file store
+  if (/\.(jpe?g|png|gif|svg|webp|pdf|css|js|ico)$/i.test(p)) return false; // binaries/assets
+  return true;
+}
 
 function runFc(args) {
   return new Promise((resolve, reject) => {
@@ -88,22 +130,32 @@ async function discover() {
   return kept;
 }
 
-async function scrapeAll(seeds) {
-  console.log(`==> [2/3] Scrape ${seeds.length} URLs (concurrency=${CONCURRENCY})`);
-  await mkdir(PAGES_DIR, { recursive: true });
+let pageIdx = 0; // global page-file counter, shared across scrape rounds
 
+// Scrape a list of URLs (skipping any already in `seen`), writing one JSON per
+// page into PAGES_DIR. Returns the number of new URLs attempted.
+async function scrapeUrls(urls, seen) {
+  const todo = [];
+  for (const u of urls) {
+    const n = normUrl(u);
+    if (!n || seen.has(n)) continue;
+    seen.add(n);
+    todo.push(u);
+  }
+  if (!todo.length) return 0;
+
+  const queue = todo.slice();
   let done = 0;
   let failed = 0;
-  const queue = seeds.map((s, i) => ({ seed: s, idx: i }));
 
   async function worker() {
     while (queue.length) {
-      const { seed, idx } = queue.shift();
-      const outFile = join(PAGES_DIR, `${String(idx).padStart(4, "0")}.json`);
+      const url = queue.shift();
+      const outFile = join(PAGES_DIR, `${String(pageIdx++).padStart(5, "0")}.json`);
       try {
         await runFc([
           "scrape",
-          seed.url,
+          url,
           "--only-main-content",
           "--format", "markdown",
           "--json",
@@ -111,17 +163,39 @@ async function scrapeAll(seeds) {
         ]);
       } catch (err) {
         failed++;
-        console.error(`    [${idx}] FAIL ${seed.url} — ${err.message.slice(0, 120)}`);
+        console.error(`    FAIL ${url} — ${err.message.slice(0, 120)}`);
       }
       done++;
-      if (done % 25 === 0 || done === seeds.length) {
-        console.log(`    Progress: ${done}/${seeds.length} (failed=${failed})`);
+      if (done % 25 === 0 || done === todo.length) {
+        console.log(`    Progress: ${done}/${todo.length} (failed=${failed})`);
       }
     }
   }
 
   await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
-  console.log(`    Done. Succeeded=${done - failed}, Failed=${failed}`);
+  console.log(`    Round done. Succeeded=${done - failed}, Failed=${failed}`);
+  return todo.length;
+}
+
+// Harvest every in-scope mass.gov link found in already-scraped page bodies.
+async function harvestLinks() {
+  const files = (await readdir(PAGES_DIR)).filter((f) => f.endsWith(".json"));
+  const re = /https?:\/\/(?:www\.)?mass\.gov\/[^\s)"'\]<>]+/gi;
+  const links = new Set();
+  for (const f of files) {
+    let d;
+    try {
+      d = JSON.parse(await readFile(join(PAGES_DIR, f), "utf8"));
+    } catch {
+      continue;
+    }
+    const md = d.markdown || d.data?.markdown || "";
+    for (const m of md.matchAll(re)) {
+      const raw = m[0].replace(/[.,]+$/, "");
+      if (inScopeHarvested(raw)) links.add(raw);
+    }
+  }
+  return [...links];
 }
 
 async function merge() {
@@ -142,14 +216,34 @@ async function merge() {
 
 async function main() {
   await mkdir(OUT_DIR, { recursive: true });
+  // Start from a clean page dir so stale outputs from a prior local run don't merge.
+  await rm(PAGES_DIR, { recursive: true, force: true });
+  await mkdir(PAGES_DIR, { recursive: true });
+
   const seeds = await discover();
   if (seeds.length === 0) {
     console.error("No relevant URLs discovered. Aborting.");
     process.exit(1);
   }
-  await scrapeAll(seeds);
+
+  const seen = new Set();
+  const seedUrls = [...new Set([...seeds.map((s) => s.url), ...CURATED_SEEDS])];
+  console.log(`==> [2/3] Scrape ${seedUrls.length} URLs (seeds + curated, concurrency=${CONCURRENCY})`);
+  await scrapeUrls(seedUrls, seen);
+
+  // Expansion: follow in-scope links inside scraped pages that /map missed.
+  for (let round = 1; round <= MAX_EXPAND; round++) {
+    const fresh = (await harvestLinks()).filter((u) => !seen.has(normUrl(u)));
+    if (fresh.length === 0) {
+      console.log(`==> Expansion round ${round}: nothing new — coverage converged.`);
+      break;
+    }
+    console.log(`==> Expansion round ${round}: ${fresh.length} newly-linked page(s) to scrape`);
+    await scrapeUrls(fresh, seen);
+  }
+
   await merge();
-  console.log("\n==> Crawl complete.");
+  console.log(`\n==> Crawl complete. ${pageIdx} page(s) scraped.`);
 }
 
 main().catch((e) => {

@@ -52,6 +52,7 @@ jobs:
           CONCURRENCY: '5'
           MAP_LIMIT: '500'
           SEARCH_QUERY: massability
+          MAX_EXPAND: '2'
         run: node scripts/crawl.mjs
 
       - name: Build manifest + dedupe

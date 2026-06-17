@@ -11,7 +11,9 @@ hides most internal links behind JS-rendered menus. It was replaced by a
 | Tool | Firecrawl CLI (`firecrawl map` + `firecrawl scrape`) |
 | Discovery | `firecrawl map https://www.mass.gov --search massability --limit 500` |
 | Relevance filter | `isRelevant()` in `crawl.mjs` — keeps massability/MRC/rehabilitation/disability pages, drops boilerplate buckets |
+| Curated seeds | `CURATED_SEEDS` in `crawl.mjs` — must-have URLs (annual reports, key service pages) always scraped, since `/map` has historically missed them |
 | Scrape | per-URL `firecrawl scrape --only-main-content --format markdown` (concurrency 5) |
+| Link-expansion | after scraping, harvest in-scope mass.gov links from page bodies and scrape any `/map` missed (`MAX_EXPAND` rounds, default 2) — closes the gap from non-deterministic `/map` discovery |
 | Output formats | `markdown` |
 | PDF handling | `mass.gov/doc/<slug>/download` → `data/pdfs/<slug>.md` (extracted); raw `*.pdf` gitignored |
 | De-dup | by canonical `sourceURL`; pagination disambiguated as `-p<N>` |

@@ -37,7 +37,9 @@ The workflow ([`crawl.yml`](../.github/workflows/crawl.yml)) on each run:
 2. Verifies `FIRECRAWL_API_KEY` is set and remaining credits ≥ 300 (hard-fails otherwise).
 3. Runs [`scripts/crawl.mjs`](../scripts/crawl.mjs) — the **v2 pipeline**:
    `firecrawl /map` (≈500 candidate URLs for query `massability`) → relevance filter
-   → per-URL `scrape` → merge into `.firecrawl/crawl.json` (gitignored).
+   → add a curated must-have seed list → per-URL `scrape` → **link-expansion**
+   (harvest in-scope mass.gov links from scraped pages and scrape any `/map` missed,
+   up to `MAX_EXPAND` rounds) → merge into `.firecrawl/crawl.json` (gitignored).
 4. Runs [`scripts/refresh-manifest.mjs`](../scripts/refresh-manifest.mjs) — writes
    `data/<bucket>/<slug>.md`, strips mass.gov boilerplate, and rebuilds
    `docs/crawl-manifest.json` with sha256 + `fetched_at`.
